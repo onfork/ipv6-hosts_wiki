@@ -1,4 +1,4 @@
-### Youtube
+> YouTube 域名规则
 
 ####域名重定向地址
 <pre>v?.lscache?.c.youtube.com
