@@ -33,9 +33,10 @@ IP段和IATA机场编码可参照[1e100.net](https://github.com/lennylxx/ipv6-ho
 r?.sn-xxxxxxxx.googlevideo.com
 r?---sn-xxxxxxxx.c.youtube.com
 r?---sn-xxxxxxxx.googlevideo.com</pre>
-最近出现的新域名，xxxxxxxx为八位编码，含义未知，对应IP好像也不固定，但 IPv6 第8段固定。  
+最近出现的新域名，固定IP，xxxxxxxx为八位编码，含义未知，但编码比较有规律。  
 每组域名共20个，r1-r20。 
 
+sn编码表格(表格第一列为IPv6第4段)
 ||2607:f8b0:4005|2607:f8b0:4007|2607:f8b0:4009|
 |---|---|---|---|
 |1|nwj7knl7||vgqs7nes|
