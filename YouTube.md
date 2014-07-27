@@ -9,8 +9,8 @@ v?.nonxt?.googlevideo.com
 tc.v?.cache?.googlevideo.com
 </pre>
 经过实践，以上六种域名都是`bandaid-redirector.l.google.com`的aliase，由重定向服务器分配IP，地址不固定。  
-但是所有地址在某一时间段内每次分配的IP都是同一个。  
-每个域名有8组，每组域名24个，v1-v24。
+但是所有地址在某一时间段内分配的IP都是同一个。  
+每种域名有8组，每组域名24个，v1-v24。
 
 ####固定地址
 <pre>v?.cache?.c.youtube.com
@@ -33,5 +33,5 @@ IP段和IATA机场编码可参照[1e100.net](https://github.com/lennylxx/ipv6-ho
 r?.sn-xxxxxxxx.googlevideo.com
 r?---sn-xxxxxxxx.c.youtube.com
 r?---sn-xxxxxxxx.googlevideo.com</pre>
-最近出现的新域名，xxxxxxxx为八位编码，含义未知，对应IP好像也不固定。  
+最近出现的新域名，xxxxxxxx为八位编码，含义未知，对应IP好像也不固定，但 IPv6 第8段固定。  
 每组域名共20个，r1-r20。 
