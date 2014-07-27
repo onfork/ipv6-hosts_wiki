@@ -1,7 +1,7 @@
 > YouTube 域名规则
 
 域名重定向地址
-====
+----
 <pre>v?.lscache?.c.youtube.com
 v?.nonxt?.c.youtube.com
 tc.v?.cache?.c.youtube.com
@@ -14,7 +14,7 @@ tc.v?.cache?.googlevideo.com
 每种域名有8组，每组域名24个，v1-v24。
 
 固定地址
-====
+----
 <pre>v?.cache?.c.youtube.com
 v?.cache?.googlevideo.com</pre>
 以上两种域名指向的IP相同，为固定IP。
@@ -22,7 +22,7 @@ v?.cache?.googlevideo.com</pre>
 每组域名共8个，v1-v8。
 
 前缀限定地址
-====
+----
 <pre>r?.xxx??s??.c.youtube.com
 r?.xxx??s??.googlevideo.com
 r?---xxx??s??.c.youtube.com
@@ -32,7 +32,7 @@ IP段和IATA机场编码可参照[1e100.net](https://github.com/lennylxx/ipv6-ho
 每组域名共20个，r1-r20。   
 
 SN编码地址
-====
+----
 <pre>r?.sn-xxxxxxxx.c.youtube.com
 r?.sn-xxxxxxxx.googlevideo.com
 r?---sn-xxxxxxxx.c.youtube.com
