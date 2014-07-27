@@ -34,8 +34,29 @@ r?.sn-xxxxxxxx.googlevideo.com
 r?---sn-xxxxxxxx.c.youtube.com
 r?---sn-xxxxxxxx.googlevideo.com</pre>
 最近出现的新域名，固定IP，xxxxxxxx为八位编码，含义未知，但编码比较有规律。  
-每组域名共20个，r1-r20。 
+每组域名共20个，r1-r20。对应的IPv6地址第8段取值范围则是0x6-0x19。  
 
+**栗子**
+<pre>2001:4860:4001:7::6 r1---sn-nwj7kned.googlevideo.com #r1.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::7 r2---sn-nwj7kned.googlevideo.com #r2.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::8 r3---sn-nwj7kned.googlevideo.com #r3.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::9 r4---sn-nwj7kned.googlevideo.com #r4.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::a r5---sn-nwj7kned.googlevideo.com #r5.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::b r6---sn-nwj7kned.googlevideo.com #r6.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::c r7---sn-nwj7kned.googlevideo.com #r7.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::d r8---sn-nwj7kned.googlevideo.com #r8.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::e r9---sn-nwj7kned.googlevideo.com #r9.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::f r10---sn-nwj7kned.googlevideo.com #r10.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::10 r11---sn-nwj7kned.googlevideo.com #r11.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::11 r12---sn-nwj7kned.googlevideo.com #r12.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::12 r13---sn-nwj7kned.googlevideo.com #r13.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::13 r14---sn-nwj7kned.googlevideo.com #r14.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::14 r15---sn-nwj7kned.googlevideo.com #r15.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::15 r16---sn-nwj7kned.googlevideo.com #r16.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::16 r17---sn-nwj7kned.googlevideo.com #r17.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::17 r18---sn-nwj7kned.googlevideo.com #r18.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::18 r19---sn-nwj7kned.googlevideo.com #r19.sn-nwj7kned.googlevideo.com
+2001:4860:4001:7::19 r20---sn-nwj7kned.googlevideo.com #r20.sn-nwj7kned.googlevideo.com</pre>
 **下面是三个已知sn编码表格(表格第一列为IPv6第4段)**  
 
 ||2607:f8b0:4005|2607:f8b0:4007|2607:f8b0:4009|
