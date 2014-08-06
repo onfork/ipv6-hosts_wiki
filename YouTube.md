@@ -60,9 +60,10 @@ r?---sn-xxxxxxxx.googlevideo.com</pre>
 2001:4860:4001:7::16 r17---sn-nwj7kned.googlevideo.com
 2001:4860:4001:7::17 r18---sn-nwj7kned.googlevideo.com
 2001:4860:4001:7::18 r19---sn-nwj7kned.googlevideo.com
-2001:4860:4001:7::19 r20---sn-nwj7kned.googlevideo.com</pre>
-**下面是三个已知sn编码表格(表格第一列为IPv6第4段)**  
+2001:4860:4001:7::19 r20---sn-nwj7kned.googlevideo.com</pre>  
 
+**下面是三个已知sn编码表格(表格第一列为IPv6第4段)**  
+上面的栗子可以在第三个表格的第7行找到
 ||2607:f8b0:4005|2607:f8b0:4007|2607:f8b0:4009|
 |---|---|---|---|
 |1|nwj7knl7||vgqs7nes|
