@@ -1,6 +1,8 @@
 > YouTube 域名规则
 
-域名重定向地址
+*.c.youtube.com 和 *.googlevideo.com 指向的地址是相同的。
+
+1. 域名重定向地址
 ----
 <pre>v?.lscache?.c.youtube.com
 v?.nonxt?.c.youtube.com
@@ -13,7 +15,7 @@ tc.v?.cache?.googlevideo.com
 但是所有地址在某一时间段内分配的IP都是同一个。  
 每种域名有8组，每组域名24个，v1-v24。
 
-固定地址
+2. 固定地址
 ----
 <pre>v?.cache?.c.youtube.com
 v?.cache?.googlevideo.com</pre>
@@ -21,9 +23,10 @@ v?.cache?.googlevideo.com</pre>
 目前已知的前缀均为**2a00:1450:400e::/48**，IPv6第4段取值范围400-407，第8段取值范围10-17。
 每组域名共8个，v1-v8。
 
-前缀限定地址
+3. 前缀限定地址
 ----
 <pre>r?.xxx??s??.c.youtube.com
+
 r?.xxx??s??.googlevideo.com
 r?---xxx??s??.c.youtube.com
 r?---xxx??s??.googlevideo.com</pre>
@@ -31,7 +34,7 @@ r?---xxx??s??.googlevideo.com</pre>
 IP段和IATA机场编码可参照[1e100.net](https://github.com/lennylxx/ipv6-hosts/wiki/1e100.net)的[服务器部署信息表格](https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8)。  
 每组域名共20个，r1-r20。   
 
-SN编码地址
+4. SN编码地址
 ----
 <pre>r?.sn-xxxxxxxx.c.youtube.com
 r?.sn-xxxxxxxx.googlevideo.com
@@ -65,36 +68,37 @@ r?---sn-xxxxxxxx.googlevideo.com</pre>
 **下面是三个已知sn编码表格(表格第一列为IPv6第4段)**  
 (上面的栗子可以在第三个表格的第7行找到)  
 
-||2607:f8b0:4005|2607:f8b0:4007|2607:f8b0:4009|
-|---|---|---|---|
-|1|nwj7knl7||vgqs7nes|
-|2|||vgqs7nez|
-|3|||vgqs7ne6|
-|4|||vgqs7ned|
-|5|||vgqs7nek|
-|11||a5m7ln7r|
-|12||a5m7ln7y|
-|13||a5m7lne7|
-|14||a5m7lnee|
-|15||a5m7lnel|
-|16||a5m7lnes|
-|17||a5m7lnez|
-|18||a5m7lne6|
-|19||a5m7lned|
-|1a||a5m7lnek|
-|1b||a5m7lner|
-|1c|||vgqs7n7e|
-|1d|||vgqs7n7l|
-|1e|||vgqs7n7s|
-|1f|||vgqs7n7z|
-|20|||vgqs7n76|
-|21|||vgqs7n7d|
-|22|||vgqs7n7k|
-|23|||vgqs7n7r|
-|24|||vgqs7n7y|
-|25|||vgqs7ne7|
-|26|||vgqs7nee|
-|27|||vgqs7nel|
+||2607:f8b0:4004|2607:f8b0:4005|2607:f8b0:4006|2607:f8b0:4007|2607:f8b0:4009|
+|---|---|---|---|---|---|
+|1||nwj7knl7|||vgqs7nes|
+|2|||ab5l6nl6||vgqs7nez|
+|3|||||vgqs7ne6|
+|4|||||vgqs7ned|
+|5|||||vgqs7nek|
+|10||||a5m7ln7k|
+|11||||a5m7ln7r|
+|12||||a5m7ln7y|
+|13||||a5m7lne7|
+|14||||a5m7lnee|
+|15||||a5m7lnel|
+|16||||a5m7lnes|
+|17||||a5m7lnez|
+|18|p5qlsney|||a5m7lne6|
+|19||||a5m7lned|
+|1a||||a5m7lnek|
+|1b|p5qlsnll|||a5m7lner|
+|1c|||ab5l6nek||vgqs7n7e|
+|1d|||||vgqs7n7l|
+|1e|||||vgqs7n7s|
+|1f|||||vgqs7n7z|
+|20|||||vgqs7n76|
+|21|||||vgqs7n7d|
+|22|||||vgqs7n7k|
+|23|||||vgqs7n7r|
+|24|||||vgqs7n7y|
+|25|||||vgqs7ne7|
+|26|||||vgqs7nee|
+|27|||||vgqs7nel|
 
 
 ||2404:6800:4002|2404:6800:4003|2404:6800:4007|
@@ -128,3 +132,11 @@ r?---sn-xxxxxxxx.googlevideo.com</pre>
 |12|o097zne6|
 |13|o097zned|
 |14|o097znek|
+
+
+其他形式
+<pre>r?.sn-xxxx-xxxx.googlevideo.com
+r?.sn-xxxxxx-xxxx.googlevideo.com
+r?.sn-xxxxxxxx-xxxx.googlevideo.com
+r?.sn-xxxxxxxxx-xxxx.googlevideo.com
+r?.sn-xxxxxxxxxxxx-xxxx.googlevideo.com</pre>
