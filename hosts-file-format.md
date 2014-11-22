@@ -3,7 +3,7 @@ hosts 文件是一个纯文本文件，用于将 IP 地址和域名关联起来�
 
 1. 每行一个IP地址。
 2. 每行的格式：
-   <ip-address> <hostsname> [aliases...]
+   <pre>\<ip-address\> \<hostsname\> [aliases...]</pre>
    三项以任意数量的空格符(Space)或者制表符(Tab)隔开。
 3. 主机名(hostsname)只能包含 字母、数字、减号(-)和句号(.)；并且必须以字母数字开头，以字母数字结尾。
 4. 别名(alias)可选，可以是多个。
