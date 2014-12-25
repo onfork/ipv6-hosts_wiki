@@ -64,8 +64,48 @@ r?---sn-xxxxxxxx.googlevideo.com</pre>
 2001:4860:4001:7::18 r19---sn-nwj7kned.googlevideo.com
 2001:4860:4001:7::19 r20---sn-nwj7kned.googlevideo.com</pre>  
 
-**下面是三个已知sn编码表格(表格第一列为IPv6第4段)**  
-(上面的栗子可以在第三个表格的第7行找到)  
+**下面是三个已知sn编码表格(表格第一列为IPv6第4段，40x每组域名为8个)**  
+(上面的栗子可以在第一个表格的第7行找到)  
+
+||2001:4860:4001|2001:4860:4007|
+|---|---|---|
+|1|nwj7kner|
+|2|nwj7knee|
+|3|nwj7knel|
+|4|nwj7knes|a5m7ln7s|
+|5|nwj7knez|a5m7ln7z|
+|6|nwj7kne6|a5m7ln76|
+|7|nwj7kned|a5m7ln7d|
+|8|nwj7knek|
+|d|o097zne7|
+|e|o097znee|
+|f|o097znel|
+|10|o097znes|a5m7ln7k|
+|11|o097znez|a5m7ln7r|
+|12|o097zne6|a5m7ln7y|
+|13|o097zned|
+|14|o097znek|
+
+
+||2404:6800:4001|2404:6800:4002|2404:6800:4003|2404:6800:4005|2404:6800:4007|
+|---|---|---|---|---|---|
+|0||qxa7en7e|npo7en7d||h557sn7r|
+|1||qxa7en7l|npo7en7k||h557sn7y|
+|2||qxa7en7s|npo7en7r||h557sne7|
+|3||qxa7en7z|npo7en7y||h557snee|
+|4|||npo7ene7|i3b7sn76|h557snel|
+|5|||npo7enee|i3b7sn7d|h557snes|
+|6|||npo7enel|i3b7sn7k|h557snez|
+|7|||npo7enes|i3b7sn7r|h557sne6|
+|8|30a7en7s||||h557sned|
+|9|30a7en76||||h557snek|
+|c||||i3b7sn7e||
+|d||||i3b7sn7l||
+|e||||i3b7sn7s||
+|f||||i3b7sn7z||
+|10|30a7en7z|||||
+|11|30a7en7d|||||
+
 
 ||2607:f8b0:4004|2607:f8b0:4005|2607:f8b0:4006|2607:f8b0:4007|2607:f8b0:4009|
 |---|---|---|---|---|---|
@@ -74,7 +114,10 @@ r?---sn-xxxxxxxx.googlevideo.com</pre>
 |3|||||vgqs7ne6|
 |4|||||vgqs7ned|
 |5|||||vgqs7nek|
-|6|||||vgqs7ner|
+|6||||a5m7zne7|vgqs7ner|
+|7||||a5m7znee||
+|8||||a5m7znel||
+|9||||a5m7znes||
 |10||||a5m7ln7k|
 |11||||a5m7ln7r|
 |12||||a5m7ln7y|
@@ -107,43 +150,6 @@ r?---sn-xxxxxxxx.googlevideo.com</pre>
 |405||o097zued||a5m7zu7d||
 |406||o097zuek||a5m7zu7k||
 |407||o097zuer||a5m7zu7r||
-
-
-||2404:6800:4002|2404:6800:4003|2404:6800:4005|2404:6800:4007|
-|---|---|---|---|---|
-|0|qxa7en7e|npo7en7d||h557sn7r|
-|1|qxa7en7l|npo7en7k||h557sn7y|
-|2|qxa7en7s|npo7en7r||h557sne7|
-|3|qxa7en7z|npo7en7y||h557snee|
-|4|||i3b7sn76|h557snel|
-|5|||i3b7sn7d|h557snes|
-|6|||i3b7sn7k|h557snez|
-|7|||i3b7sn7r|h557sne6|
-|8||||h557sned|
-|9||||h557snek|
-|c|||i3b7sn7e||
-|d|||i3b7sn7l||
-|e|||i3b7sn7s||
-|f|||i3b7sn7z||
-
-||2001:4860:4001|2001:4860:4007|
-|---|---|---|
-|1|nwj7kner|
-|2|nwj7knee|
-|3|nwj7knel|
-|4|nwj7knes|a5m7ln7s|
-|5|nwj7knez|a5m7ln7z|
-|6|nwj7kne6|a5m7ln76|
-|7|nwj7kned|a5m7ln7d|
-|8|nwj7knek|
-|d|o097zne7|
-|e|o097znee|
-|f|o097znel|
-|10|o097znes|a5m7ln7k|
-|11|o097znez|a5m7ln7r|
-|12|o097zne6|a5m7ln7y|
-|13|o097zned|
-|14|o097znek|
 
 
 5. 其他形式
