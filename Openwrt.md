@@ -20,7 +20,7 @@
 4. 重启 dnsmasq  
 <pre># /etc/init.d/dnsmasq restart</pre>
 
-
+===
 
 测试  
 <pre>dig @192.168.1.1 www.google.com aaaa</pre>

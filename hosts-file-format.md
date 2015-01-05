@@ -12,7 +12,7 @@ hosts 文件是一个纯文本文件，用于将 IP 地址和域名关联起来�
 
 因此，我们可以得知：
 
-1. hosts文件不支持通配符(wildcard)和正则表达式(regex expression)：   
+1. hosts文件不支持通配符(wildcard)和正则表达式(regex expression)：  
    `123.123.123.123 *.mydomain.com`  
    类似这样的条目是不合法的。
 2. 注释可以放在行尾：  
