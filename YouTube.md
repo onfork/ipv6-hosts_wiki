@@ -41,8 +41,8 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
     r?.sn-xxxxxxxx.googlevideo.com
     r?---sn-xxxxxxxx.googlevideo.com
 
-最近出现的新域名，固定IP，xxxxxxxx为八位编码，含义未知，但编码比较有规律，
-初步猜测是做了 hash。  
+最近出现的新域名，固定IP，xxxxxxxx为八位编码，含义未知，但[编码比较有规律](sn-domains)，
+初步猜测是做了 hash。   
 每组域名共20个，r1-r20。对应的 IPv6 地址第8段取值范围则是0x6-0x19。  
 
 > 此规则同样适用于 *.gvt1.com 和 *.c.android.clients.google.com 域名。
