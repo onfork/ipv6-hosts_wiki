@@ -70,7 +70,7 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
     2001:4860:4001:7::18 r19---sn-nwj7kned.googlevideo.com
     2001:4860:4001:7::19 r20---sn-nwj7kned.googlevideo.com
 
-**下面是五个已知 sn 编码表格**  
+**下面是五个已知 sn 编码表格** [查看 Google Sheets版本]  
   * 表头为 IPv6 前3段(48位)，第 1 列为 IPv6 第4段。
   * 左上角数字(20)代表每个编码域名的个数，中括号中数字为特别标明数量。
   * 表格第一行为 [IATA 机场编码]和城市名
@@ -268,3 +268,4 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 
 [IATA 机场编码]:      http://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
 [服务器部署信息表格]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
+[查看 Google Sheets版本]: https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
