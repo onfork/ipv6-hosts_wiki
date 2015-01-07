@@ -143,7 +143,7 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 |  0|              |              |              |nwj7kney      |              |a5mekn7d [6]  |              |vgqsen7e      |nx57ynee      |9gv7en7e      |
 |  1|              |              |p5qlsnsd [6]  |nwj7knl7      |              |              |              |vgqs7nes [6]  |nx57yn7s      |9gv7en7l      |
 |  2|q4f7dner      |              |p5qlsnsk [6]  |              |ab5l6nl6      |a5m7znez      |              |vgqs7nez [6]  |nx57yn7z      |9gv7en7s      |
-|  3|q4f7dney      |              |              |              |              |a5m7zne6      |              |vgqs7ne6      |nx57yn76      |9gv7en7z      |
+|  3|q4f7dney      |              |p5qlsnsr [6]  |              |              |a5m7zne6      |              |vgqs7ne6      |nx57yn76      |9gv7en7z      |
 |  4|q4f7dnl7      |              |              |o097znl7      |ab5l6nss      |a5m7zned      |              |vgqs7ned      |nx57yn7d      |9gv7en76      |
 |  5|q4f7dnle      |              |              |o097znle      |              |a5m7znek      |              |vgqs7nek      |nx57yn7k      |9gv7en7d      |
 |  6|              |              |              |o097znll      |              |a5m7zne7      |              |vgqs7ner      |nx57yn7r      |9gv7en7k      |
@@ -194,55 +194,56 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 |407|              |jc47eu7r [8]  |p5qlsu7r [8]  |o097zuer [8]  |              |a5m7zu7r [8]  |              |              |              |              |
 
 
-| 20|2a00:1450:4001|2a00:1450:4007|2a00:1450:4008|2a00:1450:400e|2a00:1450:4016|
-|---|--------------|--------------|--------------|--------------|--------------|
-|   |FRA 法兰克福  |PAR 巴黎      |BER 柏林      |UNKNOWN       |MUC 慕尼黑    |
-|  0|4g57knls      |              |              |              |h0j7sn7s      |
-|  1|4g57knlz      |              |              |              |h0j7sn7z      |
-|  2|4g57kn76      |              |cxg7en7z      |              |h0j7sn76      |
-|  3|4g57kn7d      |              |cxg7en76      |              |h0j7sn7d      |
-|  4|4g57knes      |              |cxg7en7d      |              |h0j7sn7y      |
-|  5|4g57knez      |              |cxg7en7k      |              |h0j7sne7      |
-|  6|4g57kne6      |              |cxg7ene7      |              |h0j7snee      |
-|  7|4g57kned      |              |cxg7enee      |              |h0j7snel      |
-|  8|4g57kn7e      |              |cxg7enel      |              |              |
-|  9|4g57kn7l      |              |cxg7enes      |              |              |
-|  a|4g57kn7s      |              |              |              |              |
-|  b|4g57kn7z      |              |              |              |              |
-|  c|4g57knks      |              |              |              |              |
-|  d|              |              |              |              |              |
-|  e|              |              |              |              |              |
-|  f|              |              |              |              |              |
-| 10|              |25ge7n7e      |              |              |              |
-| 11|              |25ge7n7l      |              |              |              |
-| 12|              |25ge7n7s      |              |              |              |
-| 13|              |25ge7n7z      |              |              |              |
-| 14|              |25ge7n76      |              |              |              |
-| 15|              |25ge7n7d      |              |              |              |
-| 16|4g57kndy      |25ge7n7k      |              |              |              |
-| 17|              |25ge7n7r      |              |              |              |
-| 18|              |25ge7nes      |              |              |              |
-| 19|              |25ge7nez      |              |              |              |
-| 1a|              |25ge7ne6      |              |              |              |
-| 1b|              |25ge7ned      |              |              |              |
-| 1c|4g57knek      |25ge7nek      |              |              |              |
-| 1d|4g57kner      |25ge7ner      |              |              |              |
-| 1e|4g57kney      |25ge7ney      |              |              |              |
-| 1f|4g57knl7      |25ge7nl7      |              |              |              |
-| 20|4g57knle      |              |              |              |              |
-| 21|4g57knll      |              |              |              |              |
-| 22|              |              |              |              |              |
-| 2e|4g57knz6      |              |              |              |              |
-| 3d|4g57knd7      |              |              |              |              |
-| 42|4g57knke      |              |              |              |              |
-|400|4g57kuee [8]  |              |              |5hn7su7e [8]  |              |
-|401|4g57kuel [8]  |              |              |5hn7su7l [8]  |              |
-|402|4g57kues [8]  |              |              |5hn7su7s [8]  |              |
-|403|4g57kuez [8]  |              |              |5hn7su7z [8]  |              |
-|404|4g57kue6 [8]  |              |              |5hn7su76 [8]  |              |
-|405|4g57kued [8]  |              |              |5hn7su7d [8]  |              |
-|406|4g57kuek [8]  |              |              |5hn7su7k [8]  |              |
-|407|4g57kuer [8]  |              |              |5hn7su7r [8]  |              |
+| 20|2a00:1450:4001|2a00:1450:4007|2a00:1450:4008|2a00:1450:4009|2a00:1450:400e|2a00:1450:4016|
+|---|--------------|--------------|--------------|--------------|--------------|--------------|
+|   |FRA 法兰克福  |PAR 巴黎      |BER 柏林      |LHR 伦敦      |UNKNOWN       |MUC 慕尼黑    |
+|  0|4g57knls      |              |              |              |              |h0j7sn7s      |
+|  1|4g57knlz      |              |              |              |              |h0j7sn7z      |
+|  2|4g57kn76      |              |cxg7en7z      |              |              |h0j7sn76      |
+|  3|4g57kn7d      |              |cxg7en76      |              |              |h0j7sn7d      |
+|  4|4g57knes      |              |cxg7en7d      |              |              |h0j7sn7y      |
+|  5|4g57knez      |              |cxg7en7k      |              |              |h0j7sne7      |
+|  6|4g57kne6      |              |cxg7ene7      |              |              |h0j7snee      |
+|  7|4g57kned      |              |cxg7enee      |              |              |h0j7snel      |
+|  8|4g57kn7e      |              |cxg7enel      |              |              |              |
+|  9|4g57kn7l      |              |cxg7enes      |              |              |              |
+|  a|4g57kn7s      |              |              |              |              |              |
+|  b|4g57kn7z      |              |              |              |              |              |
+|  c|4g57knks      |              |              |              |              |              |
+|  d|              |              |              |              |              |              |
+|  e|              |              |              |              |              |              |
+|  f|              |              |              |              |              |              |
+| 10|              |25ge7n7e      |              |              |              |              |
+| 11|              |25ge7n7l      |              |              |              |              |
+| 12|              |25ge7n7s      |              |              |              |              |
+| 13|              |25ge7n7z      |              |              |              |              |
+| 14|              |25ge7n76      |              |              |              |              |
+| 15|              |25ge7n7d      |              |              |              |              |
+| 16|4g57kndy      |25ge7n7k      |              |              |              |              |
+| 17|              |25ge7n7r      |              |              |              |              |
+| 18|              |25ge7nes      |              |              |              |              |
+| 19|              |25ge7nez      |              |              |              |              |
+| 1a|              |25ge7ne6      |              |              |              |              |
+| 1b|              |25ge7ned      |              |              |              |              |
+| 1c|4g57knek      |25ge7nek      |              |              |              |              |
+| 1d|4g57kner      |25ge7ner      |              |              |              |              |
+| 1e|4g57kney      |25ge7ney      |              |              |              |              |
+| 1f|4g57knl7      |25ge7nl7      |              |              |              |              |
+| 20|4g57knle      |              |              |              |              |              |
+| 21|4g57knll      |              |              |              |              |              |
+| 22|              |              |              |              |              |              |
+| 2e|4g57knz6      |              |              |              |              |              |
+| 32|              |              |              |aigllnls      |              |              |
+| 3d|4g57knd7      |              |              |              |              |              |
+| 42|4g57knke      |              |              |              |              |              |
+|400|4g57kuee [8]  |              |              |              |5hn7su7e [8]  |              |
+|401|4g57kuel [8]  |              |              |              |5hn7su7l [8]  |              |
+|402|4g57kues [8]  |              |              |              |5hn7su7s [8]  |              |
+|403|4g57kuez [8]  |              |              |              |5hn7su7z [8]  |              |
+|404|4g57kue6 [8]  |              |              |              |5hn7su76 [8]  |              |
+|405|4g57kued [8]  |              |              |              |5hn7su7d [8]  |              |
+|406|4g57kuek [8]  |              |              |              |5hn7su7k [8]  |              |
+|407|4g57kuer [8]  |              |              |              |5hn7su7r [8]  |              |
 
 
 5. SN 编码其他形式
