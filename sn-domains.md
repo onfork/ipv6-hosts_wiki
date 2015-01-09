@@ -68,13 +68,13 @@
     服务器组号转换代码：
     ```python
     table = '1023456789abcdefghijklmnopqrstuvwxyz'
-    def group(num):
+    def num2code(num):
         global table
-        ret = ''
+        code = ''
         for v in num:
             i = ((ord(v) - ord('0') + 1) * 7) % 36
-            ret += table[i]
-        return ret
+            code += table[i]
+        return code
     ```
 
 3. `[6]` 位 IPv6 地址为 `n` 或 `u`， IPv4 地址为 `m`。  
@@ -85,9 +85,12 @@
     * `a5mekm76` 对应的 IPv4 地址段为 `208.117.242.0/24`，不支持 IPv6。  
     以上三种 sn 编码均属于洛杉矶。
 
+
 * 通过这三条规则就可以把 1e100.net 服务器编码风格的 `lax17s08` 转换为 sn 编码风格的 `a5mekn7r`。
+* 查看[转换代码]。
 
 [SN 编码]:            https://github.com/lennylxx/ipv6-hosts/wiki/YouTube#4-sn-%E7%BC%96%E7%A0%81%E5%9C%B0%E5%9D%80
 [地址列表]:           https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
 [IATA 机场编码]:      https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
 [服务器部署信息表格]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
+[转换代码]:           https://github.com/lennylxx/ipv6-hosts/blob/master/conv.py
