@@ -22,16 +22,43 @@
     
     写成代码的形式：
     ```python
-    #!/user/bin/env python
+    #!/usr/bin/env python
     import sys
     table = '1023456789abcdefghijklmnopqrstuvwxyz'
-    iata = sys.argv[1]
-    o = ''
 
-    for v in iata:
-        i = ((ord(v) - ord('a')) * 7 + 5) % 36
-        o += table[i]
-    print o
+    def iata2sn(iata):
+        global table
+        sn = ''
+        for v in iata:
+            i = ((ord(v) - ord('a')) * 7 + 5) % 36
+            sn += table[i]
+        return sn
+
+    def sn2iata(sn):
+        global table
+        iata = ''
+        for v in sn:
+            i = table.index(v)
+            i = (5 - i % 7) * 5 + i / 7 + 10
+            iata += table[i]
+        return iata
+
+    def main():
+        if len(sys.argv) != 3:
+            print 'usage:\n\t./%s -i iata\n\t./%s -s sn'\
+                % (sys.argv[0], sys.argv[0])
+            sys.exit(1)
+
+        if sys.argv[1] == '-i':
+            print iata2sn(sys.argv[2])
+        elif sys.argv[1] == '-s':
+            print sn2iata(sys.argv[2])
+        else:
+            print 'Unknown option.'
+            sys.exit(1)
+
+    if __name__ == '__main__':
+        main()
     ```
 
 2. `[45]` 和 `[78]` 均为下表格中第一列 10 个字符的组合。  
