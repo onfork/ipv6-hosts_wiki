@@ -22,10 +22,7 @@
     
     写成代码的形式：
     ```python
-    #!/usr/bin/env python
-    import sys
     table = '1023456789abcdefghijklmnopqrstuvwxyz'
-
     def iata2sn(iata):
         global table
         sn = ''
@@ -33,7 +30,10 @@
             i = ((ord(v) - ord('a')) * 7 + 5) % 36
             sn += table[i]
         return sn
-
+    ```
+    反向转换：
+    ```python
+    table = '1023456789abcdefghijklmnopqrstuvwxyz'
     def sn2iata(sn):
         global table
         iata = ''
@@ -42,26 +42,9 @@
             i = (5 - i % 7) * 5 + i / 7 + 10
             iata += table[i]
         return iata
-
-    def main():
-        if len(sys.argv) != 3:
-            print 'usage:\n\t./%s -i iata\n\t./%s -s sn'\
-                % (sys.argv[0], sys.argv[0])
-            sys.exit(1)
-
-        if sys.argv[1] == '-i':
-            print iata2sn(sys.argv[2])
-        elif sys.argv[1] == '-s':
-            print sn2iata(sys.argv[2])
-        else:
-            print 'Unknown option.'
-            sys.exit(1)
-
-    if __name__ == '__main__':
-        main()
     ```
 
-2. `[45]` 和 `[78]` 均为下表格中第一列 10 个字符的组合。  
+2. `[45]` 和 `[78]` 均为下表格中第一列 10 个字符的组合，代表服务器组号。  
     ```
       | 1 2 3 4 5 6
     7 | 8 9 a b c d
@@ -75,7 +58,6 @@
     r | s t u v w x
     y | z
     ```
-    
     例如：
     ```
        7e 7l 7s 7z 76 7d 7k 7r 7y
@@ -83,7 +65,18 @@
     l7 le ll ls lz l6 ld lk lr ly
     s7 se    ss       sd sk sr
     ```
-    
+    服务器组号转换代码：
+    ```python
+    table = '1023456789abcdefghijklmnopqrstuvwxyz'
+    def group(num):
+        global table
+        ret = ''
+        for v in num:
+            i = ((ord(v) - ord('0') + 1) * 7) % 36
+            ret += table[i]
+        return ret
+    ```
+
 3. `[6]` 位 IPv6 地址为 `n` 或 `u`， IPv4 地址为 `m`。  
 
     例如：  
@@ -92,6 +85,7 @@
     * `a5mekm76` 对应的 IPv4 地址段为 `208.117.242.0/24`，不支持 IPv6。  
     以上三种 sn 编码均属于洛杉矶。
 
+* 通过这三条规则就可以把 1e100.net 服务器编码风格的 `lax17s08` 转换为 sn 编码风格的 `a5mekn7r`。
 
 [SN 编码]:            https://github.com/lennylxx/ipv6-hosts/wiki/YouTube#4-sn-%E7%BC%96%E7%A0%81%E5%9C%B0%E5%9D%80
 [地址列表]:           https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
