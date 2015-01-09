@@ -10,7 +10,7 @@
     v?.nonxt?.googlevideo.com
     tc.v?.cache?.googlevideo.com
 
-经过实践，以上六种域名都是`bandaid-redirector.l.google.com`的aliase，
+经过实践，以上三种域名都是`bandaid-redirector.l.google.com`的aliase，
 由重定向服务器分配IP，地址不固定。  
 但是所有地址在某一时间段内分配的IP都是同一个。  
 每种域名有8组，每组域名24个，v1-v24。
@@ -20,7 +20,7 @@
 
     v?.cache?.googlevideo.com
 
-以上两种域名指向的IP相同，为固定IP。
+该域名指向的IP为固定IP。
 目前已知的前缀均为**2a00:1450:400e::/48**，IPv6第4段取值范围400-407，
 第8段取值范围10-17。
 每组域名共8个，v1-v8。
@@ -31,7 +31,7 @@
     r?.xxx??s??.googlevideo.com
     r?---xxx??s??.googlevideo.com
 
-以上四种域名指向的IP相同，为固定IP，xxx([IATA 机场编码])决定服务器地理位置。  
+以上两种域名指向的IP相同，为固定IP，xxx([IATA 机场编码])决定服务器地理位置。  
 IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]。  
 每组域名共20个，r1-r20。   
 
@@ -41,11 +41,10 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
     r?.sn-xxxxxxxx.googlevideo.com
     r?---sn-xxxxxxxx.googlevideo.com
 
-最近出现的新域名，固定IP，xxxxxxxx为八位编码，含义未知，但[编码比较有规律](sn-domains)，
-初步猜测是做了 hash。   
+最近出现的新域名，固定IP，xxxxxxxx为八位编码，[编码比较有规律](sn-domains)。   
 每组域名共20个，r1-r20。对应的 IPv6 地址第8段取值范围则是0x6-0x19。  
 
-> 此规则同样适用于 *.gvt1.com 和 *.c.android.clients.google.com 域名。
+> 此规则同样适用于 `*.c.docs.google.com` `*.gvt1.com` 和 `*.c.android.clients.google.com` 域名。
 
 **栗子**
 
@@ -73,8 +72,8 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 **下面是五个已知 sn 编码表格** [查看 Google Sheets 版本]  
   * 表头为 IPv6 前3段(48位)，第 1 列为 IPv6 第4段。
   * 左上角数字(20)代表每个编码域名的个数，中括号中数字为特别标明数量。
-  * 表格第一行为 [IATA 机场编码]和城市名
-  * 上面的栗子可以在第一个表格的第7行找到  
+  * 表格第一行为 [IATA 机场编码]和城市名。
+  * 上面的栗子可以在第一个表格的第7行找到。  
 
 | 20|2001:4860:4001|2001:4860:4002|2001:4860:4007|
 |---|--------------|--------------|--------------|
