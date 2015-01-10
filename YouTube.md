@@ -141,12 +141,12 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 |   |DFW 达拉斯    |CBF           |IAD 华盛顿    |NUQ/SJC 山景城|LGA 纽约      |LAX 洛杉矶    |MIA 迈阿密    |ORD 芝加哥    |SEA 西雅图    |DEN 丹佛      |QRO 克雷塔罗  |
 |  0|              |              |              |nwj7kney      |              |a5mekn7d [6]  |              |vgqsen7e      |nx57ynee      |qxo7sn7e      |9gv7en7e      |
 |  1|              |              |p5qlsnsd [6]  |nwj7knl7      |              |              |              |vgqs7nes [6]  |nx57yn7s      |qxo7sn7l      |9gv7en7l      |
-|  2|q4f7dner      |              |p5qlsnsk [6]  |              |ab5l6nl6      |a5m7znez      |              |vgqs7nez [6]  |nx57yn7z      |qxo7sn7s      |9gv7en7s      |
-|  3|q4f7dney      |              |p5qlsnsr [6]  |              |              |a5m7zne6      |              |vgqs7ne6      |nx57yn76      |qxo7sn7z      |9gv7en7z      |
+|  2|q4f7dner      |              |p5qlsnsk [6]  |              |ab5l6nl6      |a5m7znez      |hp57knlr [6]  |vgqs7nez [6]  |nx57yn7z      |qxo7sn7s      |9gv7en7s      |
+|  3|q4f7dney      |              |p5qlsnsr [6]  |              |              |a5m7zne6      |hp57knly [6]  |vgqs7ne6      |nx57yn76      |qxo7sn7z      |9gv7en7z      |
 |  4|q4f7dnl7      |              |              |o097znl7      |ab5l6nss      |a5m7zned      |              |vgqs7ned      |nx57yn7d      |              |9gv7en76      |
 |  5|q4f7dnle      |              |              |o097znle      |              |a5m7znek      |              |vgqs7nek      |nx57yn7k      |              |9gv7en7d      |
-|  6|              |              |              |o097znll      |              |a5m7zne7      |              |vgqs7ner      |nx57yn7r      |              |9gv7en7k      |
-|  7|              |              |              |o097znls      |              |a5m7znee      |              |vgqsenek [6]  |nx57yn7y      |              |9gv7en7r      |
+|  6|              |              |              |o097znll      |              |a5m7zne7      |hp57kns7 [6]  |vgqs7ner      |nx57yn7r      |              |9gv7en7k      |
+|  7|              |              |              |o097znls      |              |a5m7znee      |hp57knse [6]  |vgqsenek [6]  |nx57yn7y      |              |9gv7en7r      |
 |  8|              |              |p5qlsn7e      |              |ab5l6n7e      |a5m7znel      |              |vgqsener [6]  |nx57yne7      |              |              |
 |  9|              |              |p5qlsn7l      |              |ab5l6n7l      |a5m7znes      |              |vgqs7ney [6]  |nx57ynel      |              |              |
 |  a|q4f7dnsd      |              |p5qlsn7s      |              |ab5l6nsd      |a5mekn7r [6]  |              |vgqsen7y      |nx57ynes      |              |              |
