@@ -63,7 +63,7 @@
        7e 7l 7s 7z 76 7d 7k 7r 7y
     e7 ee el es ez e6 ed ek er ey
     l7 le ll ls lz l6 ld lk lr ly
-    s7 se    ss       sd sk sr
+    s7 se sl ss sz    sd sk sr
     ```
     服务器组号转换代码：
     ```python
