@@ -65,6 +65,8 @@
     l7 le ll ls lz l6 ld lk lr ly
     s7 se sl ss sz    sd sk sr
     ```
+    其中 `7e` 代表 `01`，`el` 代表 `12`，`s7` 代表 `30` 等。
+
     服务器组号转换代码：
     ```python
     table = '1023456789abcdefghijklmnopqrstuvwxyz'
