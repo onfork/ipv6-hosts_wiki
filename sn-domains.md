@@ -96,4 +96,4 @@
 [地址列表]:           https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
 [IATA 机场编码]:      https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
 [服务器部署信息表格]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
-[转换代码]:           https://github.com/lennylxx/ipv6-hosts/blob/master/conv.py
+[转换代码]:           https://github.com/lennylxx/ipv6-hosts/blob/master/tools/conv.py
