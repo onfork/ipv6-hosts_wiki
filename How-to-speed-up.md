@@ -54,12 +54,12 @@ traceroute to hkg03s09-in-x01.1e100.net (2404:6800:4005:800::1001), 30 hops max,
 更多信息请参考 [1e100.net] 和 [YouTube]。
 
 
-[01]:                     snippets/01_google.txt
-[02]:                     snippets/02_l.google.txt
-[03]:                     snippets/03_adwords.txt
-[04]:                     snippets/04_android.txt
-[05]:                     snippets/05_bigcache.txt
-[06]:                     snippets/06_googleusercontent.txt
-[更新 hosts 的脚本]:       https://github.com/lennylxx/ipv6-hosts/blob/master/update_hosts.py
-[1e100.net]:              https://github.com/lennylxx/ipv6-hosts/wiki/1e100.net
-[YouTube]:                https://github.com/lennylxx/ipv6-hosts/wiki/YouTube
+[01]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/01_google.txt
+[02]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/02_l.google.txt
+[03]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/03_adwords.txt
+[04]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/04_android.txt
+[05]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/05_bigcache.txt
+[06]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/06_googleusercontent.txt
+[更新 hosts 的脚本]: https://github.com/lennylxx/ipv6-hosts/blob/master/update_hosts.py
+[1e100.net]:        https://github.com/lennylxx/ipv6-hosts/wiki/1e100.net
+[YouTube]:          https://github.com/lennylxx/ipv6-hosts/wiki/YouTube
