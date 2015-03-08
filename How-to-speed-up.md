@@ -7,10 +7,19 @@
 
 ===
 
-当前的 hosts (主要是 Google 域名) 使用了最快的位于洛杉矶的服务器，北京教育网延时约为 160 ms。
-
-原因在于目前国内几乎所有 IPv6 流量均从北京出，在洛杉矶上岸。
+默认情况下，如果你使用了 Google DNS (如 `8.8.8.8`)，查询到的 Google IP 基本上全是香港的。
+```
+# dig @8.8.8.8 www.google.com aaaa +vc +short 
+2404:6800:4005:801::1010
+```
+这是因为 Google 的服务器根据查询的来源 IP，试图将你引导至距离你最近(性能最好)的节点，针对大陆来说就是香港。  
+但是由于国内 IPv6 路由的奇葩设置，目前国内几乎所有 IPv6 流量均从北京出，在洛杉矶上岸，然后再去往其他地区。  
 虽然香港/日本在物理距离上更近，但是去往香港，日本的流量会绕太平洋转一圈，所以将 Google 域名解析到香港 IP 并不会加速，反而具有高延迟。
+
+因此当前的 hosts (主要是 Google 域名) 使用了最快的位于**洛杉矶**的服务器，北京教育网延时约为 160 ms。
+
+既然已经将域名重定向至洛杉矶，我们还可以得知，hosts 文件中大部分 [sn 域名](sn-domains)(主要用于 [[Youtube]] 视频服务)都没有存在的必要了，只保留属于**洛杉矶**的地址段即可，也就是 `2001:4860:4007::/48` 和 `2607:f8b0:4007::/48`。  
+不过为了保持完整性，我还是保留的所有域名。
 
 使用 `traceroute` 命令测试结果：
 ```
@@ -51,7 +60,7 @@ traceroute to hkg03s09-in-x01.1e100.net (2404:6800:4005:800::1001), 30 hops max,
 
 ===
 
-更多信息请参考 [1e100.net] 和 [YouTube]。
+更多信息请参考 [[1e100.net]] 和 [[YouTube]]。
 
 
 [01]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/01_google.txt
@@ -61,5 +70,3 @@ traceroute to hkg03s09-in-x01.1e100.net (2404:6800:4005:800::1001), 30 hops max,
 [05]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/05_bigcache.txt
 [06]:               https://github.com/lennylxx/ipv6-hosts/blob/master/snippets/06_googleusercontent.txt
 [更新 hosts 的脚本]: https://github.com/lennylxx/ipv6-hosts/blob/master/update_hosts.py
-[1e100.net]:        https://github.com/lennylxx/ipv6-hosts/wiki/1e100.net
-[YouTube]:          https://github.com/lennylxx/ipv6-hosts/wiki/YouTube
