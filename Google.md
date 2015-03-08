@@ -36,13 +36,13 @@ Google IP 段的管理方式：
     如表格所示：  
     * `0-3ff` 地址段用于 **sn 编码域名**，每组地址 20 个或 6 个。  
       如在 `4007` 洛杉矶(LAX)，`1b` 对应编码 `a5m7lner`。  
-      (域可以是`*.googlevideo.com` `*.gvt1.com` `*.c.youtube.com``*.c.docs.google.com` `*.c.android.clients.google.com`等。)
-    * `400-3ff` 地址段也用于 **sn 编码域名**，每组地址则为 8 个。同上。  
+      域可以是`*.googlevideo.com` `*.gvt1.com` `*.c.youtube.com``*.c.docs.google.com` `*.c.android.clients.google.com`等。
+    * `400-3ff` 地址段也用于 **sn 编码域名**，每组地址则为 8 个。分配的域名同上。  
       如在洛杉矶，`402` 对应编码 `a5m7zu7s`。
     * `800-bff` 地址段用于 **1e100.net 域名**的 [IATA 编码]地址，每组地址 32 个。  
       映射到普通 Google 服务域名，如 `*.google.com` `*.appspot.com` `*.blogspot.com` `*.ggpht.com.com` `*.gstatic.com`等。  
       如在 `4002` 亚特兰大(ATL)，`802` 对应编码 `atl14s08`。
-    * `c00-fff` 地址段用于 **1e100.net 域名**的两位字母编码地址，每组地址 256 个。同上。  
+    * `c00-fff` 地址段用于 **1e100.net 域名**的两位字母编码地址，每组地址 256 个。分配的域名同上。  
       如在亚特兰大，`c01` 对应编码 `yh`。
 
     sn 编码域名和 1e100.net 域名的详细信息参见维基页面 [sn 编码域名](sn-domains)、[[YouTube]] 和 [[1e100.net]]。
