@@ -37,7 +37,7 @@ Google IP 段的管理方式：
     * `0-3ff` 地址段用于 **sn 编码域名**，每组地址 20 个或 6 个。  
       如在 `4007` 洛杉矶(LAX)，`1b` 对应编码 `a5m7lner`。  
       域可以是`*.googlevideo.com` `*.gvt1.com` `*.c.youtube.com``*.c.docs.google.com` `*.c.android.clients.google.com`等。
-    * `400-3ff` 地址段也用于 **sn 编码域名**，每组地址则为 8 个。分配的域名同上。  
+    * `400-7ff` 地址段也用于 **sn 编码域名**，每组地址则为 8 个。分配的域名同上。  
       如在洛杉矶，`402` 对应编码 `a5m7zu7s`。
     * `800-bff` 地址段用于 **1e100.net 域名**的 [IATA 编码]地址，每组地址 32 个。  
       映射到普通 Google 服务域名，如 `*.google.com` `*.appspot.com` `*.blogspot.com` `*.ggpht.com.com` `*.gstatic.com`等。  
