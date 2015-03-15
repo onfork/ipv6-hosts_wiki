@@ -118,8 +118,8 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 | 20|2404:6800:4001|2404:6800:4002|2404:6800:4003|2404:6800:4004|2404:6800:4005|2404:6800:4007|
 |---|--------------|--------------|--------------|--------------|--------------|--------------|
 |   |KUL 吉隆坡    |DEL 新德里    |SIN 新加坡    |NRT 东京千叶  |HKG 香港      |MAA 金奈      |
-|  0|              |qxa7en7e      |npo7en7d      |              |i3b7rn7k [6]  |h557sn7r      |
-|  1|              |qxa7en7l      |npo7en7k      |              |i3b7rn7r [6]  |h557sn7y      |
+|  0|              |qxa7en7e      |npo7en7d      |oguesnsy [6]  |i3b7rn7k [6]  |h557sn7r      |
+|  1|              |qxa7en7l      |npo7en7k      |oguesnz7 [6]  |i3b7rn7r [6]  |h557sn7y      |
 |  2|              |qxa7en7s      |npo7en7r      |              |i3b7rn7y [6]  |h557sne7      |
 |  3|              |qxa7en7z      |npo7en7y      |              |i3b7rne7 [6]  |h557snee      |
 |  4|30a7dn7e      |              |npo7ene7      |              |i3b7sn76      |h557snel      |
@@ -238,93 +238,93 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 |  6|x1x7snes      |
 |  7|x1x7snez      |
 
-| 20|2a00:1450:4001|2a00:1450:4007|2a00:1450:4008|2a00:1450:4009|2a00:1450:400b|2a00:1450:400e|2a00:1450:4016|2a00:1450:4017|
-|---|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
-|   |FRA 法兰克福  |PAR 巴黎      |BER 柏林      |LHR 伦敦      |DUB 都柏林    |AMS 阿姆斯特丹|MUC 慕尼黑    |SOF 索菲亚    |
-|  0|4g57knls      |25ge7nls [6]  |              |aigllnze      |q0c7dn7e      |              |h0j7sn7s      |              |
-|  1|4g57knlz      |25ge7nlz [6]  |              |aigllnzl      |q0c7dn7l      |              |h0j7sn7z      |nv47en7z      |
-|  2|4g57kn76      |25ge7nl6 [6]  |cxg7en7z      |aigllnzs      |q0c7dn7s      |              |h0j7sn76      |nv47en76      |
-|  3|4g57kn7d      |25ge7nld [6]  |cxg7en76      |aigllnzz      |q0c7dn7z      |              |h0j7sn7d      |nv47en7d      |
-|  4|4g57knes      |              |cxg7en7d      |aiglln6k      |q0c7dn76      |5hn7snee      |h0j7sn7y      |nv47en7k      |
-|  5|4g57knez      |              |cxg7en7k      |              |q0c7dn7d      |5hn7snel      |h0j7sne7      |nv47en7r      |
-|  6|4g57kne6      |              |cxg7ene7      |aiglln6r      |q0c7dn7k      |5hn7snes      |h0j7snee      |nv47en7y      |
-|  7|4g57kned      |              |cxg7enee      |aiglln6y      |q0c7dn7r      |5hn7snez      |h0j7snel      |nv47ene7      |
-|  8|4g57kn7e      |25g7sn7z      |cxg7enel      |aigllnd7      |              |5hn7sne6      |              |nv47en7s      |
-|  9|4g57kn7l      |25g7sn76      |cxg7enes      |              |              |5hn7sned      |              |nv47enes [6]  |
-|  a|4g57kn7s      |25g7sn7d      |              |              |              |              |              |nv47enez [6]  |
-|  b|4g57kn7z      |25g7sn7k      |              |              |              |              |              |nv47ene6 [6]  |
-|  c|4g57knks      |25g7sn7r      |              |              |              |              |              |nv47ened [6]  |
-|  d|4g57knkz      |25g7sn7y      |              |              |              |              |              |              |
-|  e|4g57knk6      |25g7sne7      |              |              |              |              |              |              |
-|  f|4g57knkd      |25g7snee      |              |              |              |              |              |              |
-| 10|4g57kndk      |25ge7n7e      |              |              |              |5hn7snek      |              |              |
-| 11|4g57kndr      |25ge7n7l      |              |              |              |5hn7sner      |              |              |
-| 12|              |25ge7n7s      |              |              |              |5hn7sney      |              |              |
-| 13|              |25ge7n7z      |              |              |              |5hn7snl7      |              |              |
-| 14|              |25ge7n76      |              |              |              |5hn7snle      |              |              |
-| 15|              |25ge7n7d      |              |              |              |5hn7snll      |              |              |
-| 16|4g57kndy      |25ge7n7k      |              |              |              |5hn7snls      |              |              |
-| 17|4g57knk7      |25ge7n7r      |              |              |              |5hn7snlz      |              |              |
-| 18|              |25ge7nes      |              |              |              |5hn7snl6      |              |              |
-| 19|              |25ge7nez      |              |              |              |5hn7snld      |              |              |
-| 1a|              |25ge7ne6      |              |              |              |5hnezn7e      |              |              |
-| 1b|              |25ge7ned      |              |              |              |5hnezn7l      |              |              |
-| 1c|4g57knek      |25ge7nek      |              |aiglln7e      |              |5hnezn7s      |              |              |
-| 1d|4g57kner      |25ge7ner      |              |aiglln7l      |              |5hnezn7z      |              |              |
-| 1e|4g57kney      |25ge7ney      |              |aiglln7s      |              |5hnezn76      |              |              |
-| 1f|4g57knl7      |25ge7nl7      |              |aiglln7z      |              |5hnezn7d      |              |              |
-| 20|4g57knle      |              |              |aiglln76      |              |5hnezn7k      |              |              |
-| 21|4g57knll      |              |              |aiglln7d      |              |5hnezn7r      |              |              |
-| 22|4g57knl6      |              |              |aiglln7k      |              |5hnezn7y      |              |              |
-| 23|4g57knld      |              |              |aiglln7r      |              |5hnezne7      |              |              |
-| 24|4g57knsy      |              |              |aiglln7y      |              |5hneznee      |              |              |
-| 25|4g57knz7      |              |              |aigllne7      |              |5hneznel      |              |              |
-| 26|4g57knze      |              |              |aigllnee      |              |              |              |              |
-| 27|4g57knzl      |              |              |aigllnel      |              |              |              |              |
-| 28|              |              |              |aigllnes      |              |              |              |              |
-| 29|              |              |              |aigllnez      |              |              |              |              |
-| 2a|              |              |              |aigllne6      |              |              |              |              |
-| 2b|              |              |              |aigllned      |              |              |              |              |
-| 2c|4g57knzs      |              |              |aigllnek      |              |              |              |              |
-| 2d|4g57knzz      |              |              |aigllner      |              |              |              |              |
-| 2e|4g57knz6      |              |              |aigllney      |              |              |              |              |
-| 2f|4g57knzd      |              |              |aigllnl7      |              |              |              |              |
-| 30|4g57knzk      |              |              |aigllnle      |              |              |              |              |
-| 31|4g57knzr      |              |              |aigllnll      |              |              |              |              |
-| 32|4g57knzy      |              |              |aigllnls      |              |              |              |              |
-| 33|4g57kn67      |              |              |aigllnlz      |              |              |              |              |
-| 34|4g57kn6e      |              |              |aigllnl6      |              |              |              |              |
-| 35|4g57kn6l      |              |              |aigllnld      |              |              |              |              |
-| 36|4g57kn6s      |              |              |aigllnlk      |              |              |              |              |
-| 37|4g57kn6z      |              |              |aigllnlr      |              |              |              |              |
-| 38|4g57kn66      |              |              |aigllnly      |              |              |              |              |
-| 39|4g57kn6d      |              |              |aigllns7      |              |              |              |              |
-| 3a|4g57kn6k      |              |              |aigllnse      |              |              |              |              |
-| 3b|4g57kn6r      |              |              |aigllnsl      |              |              |              |              |
-| 3c|4g57kn6y      |              |              |aigllnss      |              |              |              |              |
-| 3d|4g57knd7      |              |              |aigllnsz      |              |              |              |              |
-| 3e|4g57knde      |              |              |aigllns6      |              |              |              |              |
-| 3f|4g57kndl      |              |              |aigllnsd      |              |              |              |              |
-| 40|4g57knd6      |              |              |aigllnsk      |              |              |              |              |
-| 41|4g57kndd      |              |              |aigllnsr      |              |              |              |              |
-| 42|4g57knke      |              |              |aigllnsy      |              |              |              |              |
-| 43|4g57knkl      |              |              |aigllnz7      |              |              |              |              |
-| 44|              |              |              |aigllnz6      |              |              |              |              |
-| 45|              |              |              |aigllnzd      |              |              |              |              |
-| 46|              |              |              |aigllnzk      |              |              |              |              |
-| 47|              |              |              |aigllnzr      |              |              |              |              |
-| 48|              |              |              |aigllnzy [6]  |              |              |              |              |
-| 49|              |              |              |aiglln67 [6]  |              |              |              |              |
-| 4a|              |              |              |aiglln6e [6]  |              |              |              |              |
-| 4b|              |              |              |aiglln6l [6]  |              |              |              |              |
-|400|4g57kuee [8]  |              |              |              |              |5hn7su7e [8]  |              |              |
-|401|4g57kuel [8]  |              |              |              |              |5hn7su7l [8]  |              |              |
-|402|4g57kues [8]  |              |              |              |              |5hn7su7s [8]  |              |              |
-|403|4g57kuez [8]  |              |              |              |              |5hn7su7z [8]  |              |              |
-|404|4g57kue6 [8]  |              |              |              |              |5hn7su76 [8]  |              |              |
-|405|4g57kued [8]  |              |              |              |              |5hn7su7d [8]  |              |              |
-|406|4g57kuek [8]  |              |              |              |              |5hn7su7k [8]  |              |              |
-|407|4g57kuer [8]  |              |              |              |              |5hn7su7r [8]  |              |              |
+| 20|2a00:1450:4001|2a00:1450:4007|2a00:1450:4008|2a00:1450:4009|2a00:1450:400b|2a00:1450:400c|2a00:1450:400e|2a00:1450:4016|2a00:1450:4017|
+|---|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|   |FRA 法兰克福  |PAR 巴黎      |BER 柏林      |LHR 伦敦      |DUB 都柏林    |BRU 布鲁塞尔  |AMS 阿姆斯特丹|MUC 慕尼黑    |SOF 索菲亚    |
+|  0|4g57knls      |25ge7nls [6]  |              |aigllnze      |q0c7dn7e      |              |              |h0j7sn7s      |              |
+|  1|4g57knlz      |25ge7nlz [6]  |              |aigllnzl      |q0c7dn7l      |              |              |h0j7sn7z      |nv47en7z      |
+|  2|4g57kn76      |25ge7nl6 [6]  |cxg7en7z      |aigllnzs      |q0c7dn7s      |              |              |h0j7sn76      |nv47en76      |
+|  3|4g57kn7d      |25ge7nld [6]  |cxg7en76      |aigllnzz      |q0c7dn7z      |              |              |h0j7sn7d      |nv47en7d      |
+|  4|4g57knes      |              |cxg7en7d      |aiglln6k      |q0c7dn76      |              |5hn7snee      |h0j7sn7y      |nv47en7k      |
+|  5|4g57knez      |              |cxg7en7k      |              |q0c7dn7d      |              |5hn7snel      |h0j7sne7      |nv47en7r      |
+|  6|4g57kne6      |              |cxg7ene7      |aiglln6r      |q0c7dn7k      |              |5hn7snes      |h0j7snee      |nv47en7y      |
+|  7|4g57kned      |              |cxg7enee      |aiglln6y      |q0c7dn7r      |              |5hn7snez      |h0j7snel      |nv47ene7      |
+|  8|4g57kn7e      |25g7sn7z      |cxg7enel      |aigllnd7      |              |              |5hn7sne6      |              |nv47en7s      |
+|  9|4g57kn7l      |25g7sn76      |cxg7enes      |              |              |              |5hn7sned      |              |nv47enes [6]  |
+|  a|4g57kn7s      |25g7sn7d      |              |              |              |              |              |              |nv47enez [6]  |
+|  b|4g57kn7z      |25g7sn7k      |              |              |              |              |              |              |nv47ene6 [6]  |
+|  c|4g57knks      |25g7sn7r      |              |              |              |              |              |              |nv47ened [6]  |
+|  d|4g57knkz      |25g7sn7y      |              |              |              |              |              |              |              |
+|  e|4g57knk6      |25g7sne7      |              |              |              |              |              |              |              |
+|  f|4g57knkd      |25g7snee      |              |              |              |              |              |              |              |
+| 10|4g57kndk      |25ge7n7e      |              |              |              |              |5hn7snek      |              |              |
+| 11|4g57kndr      |25ge7n7l      |              |              |              |              |5hn7sner      |              |              |
+| 12|              |25ge7n7s      |              |              |              |              |5hn7sney      |              |              |
+| 13|              |25ge7n7z      |              |              |              |              |5hn7snl7      |              |              |
+| 14|              |25ge7n76      |              |              |              |              |5hn7snle      |              |              |
+| 15|              |25ge7n7d      |              |              |              |              |5hn7snll      |              |              |
+| 16|4g57kndy      |25ge7n7k      |              |              |              |              |5hn7snls      |              |              |
+| 17|4g57knk7      |25ge7n7r      |              |              |              |              |5hn7snlz      |              |              |
+| 18|              |25ge7nes      |              |              |              |              |5hn7snl6      |              |              |
+| 19|              |25ge7nez      |              |              |              |              |5hn7snld      |              |              |
+| 1a|              |25ge7ne6      |              |              |              |              |5hnezn7e      |              |              |
+| 1b|              |25ge7ned      |              |              |              |              |5hnezn7l      |              |              |
+| 1c|4g57knek      |25ge7nek      |              |aiglln7e      |              |              |5hnezn7s      |              |              |
+| 1d|4g57kner      |25ge7ner      |              |aiglln7l      |              |              |5hnezn7z      |              |              |
+| 1e|4g57kney      |25ge7ney      |              |aiglln7s      |              |              |5hnezn76      |              |              |
+| 1f|4g57knl7      |25ge7nl7      |              |aiglln7z      |              |              |5hnezn7d      |              |              |
+| 20|4g57knle      |              |              |aiglln76      |              |              |5hnezn7k      |              |              |
+| 21|4g57knll      |              |              |aiglln7d      |              |              |5hnezn7r      |              |              |
+| 22|4g57knl6      |              |              |aiglln7k      |              |              |5hnezn7y      |              |              |
+| 23|4g57knld      |              |              |aiglln7r      |              |              |5hnezne7      |              |              |
+| 24|4g57knsy      |              |              |aiglln7y      |              |              |5hneznee      |              |              |
+| 25|4g57knz7      |              |              |aigllne7      |              |              |5hneznel      |              |              |
+| 26|4g57knze      |              |              |aigllnee      |              |              |              |              |              |
+| 27|4g57knzl      |              |              |aigllnel      |              |              |              |              |              |
+| 28|              |              |              |aigllnes      |              |              |              |              |              |
+| 29|              |              |              |aigllnez      |              |              |              |              |              |
+| 2a|              |              |              |aigllne6      |              |              |              |              |              |
+| 2b|              |              |              |aigllned      |              |              |              |              |              |
+| 2c|4g57knzs      |              |              |aigllnek      |              |              |              |              |              |
+| 2d|4g57knzz      |              |              |aigllner      |              |              |              |              |              |
+| 2e|4g57knz6      |              |              |aigllney      |              |              |              |              |              |
+| 2f|4g57knzd      |              |              |aigllnl7      |              |              |              |              |              |
+| 30|4g57knzk      |              |              |aigllnle      |              |              |              |              |              |
+| 31|4g57knzr      |              |              |aigllnll      |              |              |              |              |              |
+| 32|4g57knzy      |              |              |aigllnls      |              |              |              |              |              |
+| 33|4g57kn67      |              |              |aigllnlz      |              |              |              |              |              |
+| 34|4g57kn6e      |              |              |aigllnl6      |              |              |              |              |              |
+| 35|4g57kn6l      |              |              |aigllnld      |              |              |              |              |              |
+| 36|4g57kn6s      |              |              |aigllnlk      |              |              |              |              |              |
+| 37|4g57kn6z      |              |              |aigllnlr      |              |              |              |              |              |
+| 38|4g57kn66      |              |              |aigllnly      |              |              |              |              |              |
+| 39|4g57kn6d      |              |              |aigllns7      |              |              |              |              |              |
+| 3a|4g57kn6k      |              |              |aigllnse      |              |              |              |              |              |
+| 3b|4g57kn6r      |              |              |aigllnsl      |              |              |              |              |              |
+| 3c|4g57kn6y      |              |              |aigllnss      |              |              |              |              |              |
+| 3d|4g57knd7      |              |              |aigllnsz      |              |              |              |              |              |
+| 3e|4g57knde      |              |              |aigllns6      |              |              |              |              |              |
+| 3f|4g57kndl      |              |              |aigllnsd      |              |              |              |              |              |
+| 40|4g57knd6      |              |              |aigllnsk      |              |              |              |              |              |
+| 41|4g57kndd      |              |              |aigllnsr      |              |              |              |              |              |
+| 42|4g57knke      |              |              |aigllnsy      |              |              |              |              |              |
+| 43|4g57knkl      |              |              |aigllnz7      |              |              |              |              |              |
+| 44|              |              |              |aigllnz6      |              |              |              |              |              |
+| 45|              |              |              |aigllnzd      |              |              |              |              |              |
+| 46|              |              |              |aigllnzk      |              |              |              |              |              |
+| 47|              |              |              |aigllnzr      |              |              |              |              |              |
+| 48|              |              |              |aigllnzy [6]  |              |              |              |              |              |
+| 49|              |              |              |aiglln67 [6]  |              |              |              |              |              |
+| 4a|              |              |              |aiglln6e [6]  |              |              |              |              |              |
+| 4b|              |              |              |aiglln6l [6]  |              |              |              |              |              |
+|400|4g57kuee [8]  |              |              |              |              |cg07luee [8]  |5hn7su7e [8]  |              |              |
+|401|4g57kuel [8]  |              |              |              |              |cg07luel [8]  |5hn7su7l [8]  |              |              |
+|402|4g57kues [8]  |              |              |              |              |cg07lues [8]  |5hn7su7s [8]  |              |              |
+|403|4g57kuez [8]  |              |              |              |              |cg07luez [8]  |5hn7su7z [8]  |              |              |
+|404|4g57kue6 [8]  |              |              |              |              |cg07lue6 [8]  |5hn7su76 [8]  |              |              |
+|405|4g57kued [8]  |              |              |              |              |cg07lued [8]  |5hn7su7d [8]  |              |              |
+|406|4g57kuek [8]  |              |              |              |              |cg07luek [8]  |5hn7su7k [8]  |              |              |
+|407|4g57kuer [8]  |              |              |              |              |cg07luer [8]  |5hn7su7r [8]  |              |              |
 
 
 5. SN 编码其他形式
