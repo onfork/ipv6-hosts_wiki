@@ -104,8 +104,10 @@
 
 * 通过这三条规则就可以把 1e100.net 服务器编码风格的 `lax17s08` 转换为 sn 编码风格的 `a5mekn7r`。
 * 查看[转换代码]。
+* 查看完整的[SN 编码表格]。
 
 [SN 编码]:            https://github.com/lennylxx/ipv6-hosts/wiki/YouTube#4-sn-%E7%BC%96%E7%A0%81%E5%9C%B0%E5%9D%80
+[SN 编码表格]:        https://github.com/lennylxx/ipv6-hosts/wiki/YouTube#4-sn-%E7%BC%96%E7%A0%81%E5%9C%B0%E5%9D%80
 [地址列表]:           https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
 [IATA 机场编码]:      https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
 [服务器部署信息表格]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
