@@ -46,6 +46,8 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 
 > 此规则同样适用于 `*.c.docs.google.com` `*.gvt1.com` 和 `*.c.android.clients.google.com` 域名。
 
+* SN 编码其他形式域名规律参见[[GGC]]。
+
 **栗子**
 
     2001:4860:4001:7::6 r1---sn-nwj7kned.googlevideo.com
@@ -344,17 +346,6 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 |405|4g57kued [8]  |              |              |              |              |              |cg07lued [8]  |5hn7su7d [8]  |              |              |
 |406|4g57kuek [8]  |              |              |              |              |              |cg07luek [8]  |5hn7su7k [8]  |              |              |
 |407|4g57kuer [8]  |              |              |              |              |              |cg07luer [8]  |5hn7su7r [8]  |              |              |
-
-
-5. SN 编码其他形式
-------------------
-
-    r?.sn-xxx-xxxx.googlevideo.com
-    r?.sn-xxxx-xxxx.googlevideo.com
-    r?.sn-xxxxxx-xxxx.googlevideo.com
-    r?.sn-xxxxxxxx-xxxx.googlevideo.com
-    r?.sn-xxxxxxxxx-xxxx.googlevideo.com
-    r?.sn-xxxxxxxxxxxx-xxxx.googlevideo.com
 
 
 [IATA 机场编码]:           http://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
