@@ -24,6 +24,7 @@ GGC 服务器域名以 SN 编码的形式存在，格式如下：
 | 2001:1bd0:1:12::/64      | retelit-mxp1       | gxuxapu-hm2e       |
 | 2001:4350:0:12::/64      | ati-tun1           | 5up-u0oe           |
 | 2001:4350:2048:12::/64   | ati-tun2           | 5up-u0ol           |
+| 2001:4490:3ffd:8001::/64 | bsnl-maa2          | cnoa-h55l          |
 | 2001:4498:a:200::/64     | timedotcom-kul1    | uphxqvujvh-30ae    |
 | 2001:b000:182:c100::/64  | phinet-tsa1        | 2ipoxu-un5e        |
 | 2001:b000:182:c101::/64  | phinet-tsa2        | 2ipoxu-un5l        |
@@ -37,6 +38,7 @@ GGC 服务器域名以 SN 编码的形式存在，格式如下：
 | 2407:0:0:11::/64         | indosat-cgk2       | poqvn5u-jb3l       |
 | 2620:11a:a00c::/64       | mice-msp1          | hpjx-hn2e          |
 | 2620:11a:a00e::/64       | google-msp1        | bvvbax-hn2e        |
+| 2620:11a:a00e:1::/64     | google-msp2        | bvvbax-hn2l        |
 | 2806:10a0:cfff:3::/64    | uninet-pbc6        | 0opoxu-2cjd        |
 | 2a00:800:1100::/64       | teletwo-vie1       | uxaxufv-8pxe       |
 | 2a00:800:1100:1::/64     | teletwo-vie2       | uxaxufv-8pxl       |
@@ -48,4 +50,3 @@ GGC 服务器域名以 SN 编码的形式存在，格式如下：
 [Google]: https://github.com/lennylxx/ipv6-hosts/wiki/Google
 [SN 编码]: https://github.com/lennylxx/ipv6-hosts/wiki/sn-domains
 [IATA 机场编码]: https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
-
