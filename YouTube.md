@@ -138,6 +138,14 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 |  f|              |              |              |              |i3b7sn7z      |              |
 | 10|30a7en7z      |              |              |              |i3b7rnee [6]  |              |
 | 11|30a7en7d      |              |              |              |i3b7rnel [6]  |              |
+| 12|              |              |              |              |i3b7kn7s [6]  |              |
+| 13|              |              |              |              |i3b7kn7z [6]  |              |
+| 14|              |              |              |              |i3b7kn76 [6]  |              |
+| 15|              |              |              |              |i3b7kn7d [6]  |              |
+| 16|              |              |              |              |i3b7kn7k [6]  |              |
+| 17|              |              |              |              |i3b7kn7r [6]  |              |
+| 18|              |              |              |              |              |              |
+| 19|              |              |              |              |              |              |
 | 20|              |              |              |oguesn7l      |              |              |
 | 21|              |              |              |oguesn7s      |              |              |
 | 22|              |              |              |oguesn7z      |              |              |
@@ -351,3 +359,4 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 [IATA 机场编码]:           http://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
 [服务器部署信息表格]:      https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
 [查看 Google Sheets 版本]: https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
+
