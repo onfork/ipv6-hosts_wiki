@@ -180,61 +180,66 @@ IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]
 | 3f|              |              |              |oguesnsz      |              |              |
 
 
-| 20|2607:f8b0:4000|2607:f8b0:4001|2607:f8b0:4004|2607:f8b0:4005|2607:f8b0:4006|2607:f8b0:4007|2607:f8b0:4008|2607:f8b0:4009|2607:f8b0:400a|2607:f8b0:400f|2607:f8b0:4012|
-|---|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
-|   |DFW 达拉斯    |CBF           |IAD 华盛顿    |NUQ/SJC 山景城|LGA 纽约      |LAX 洛杉矶    |MIA 迈阿密    |ORD 芝加哥    |SEA 西雅图    |DEN 丹佛      |QRO 克雷塔罗  |
-|  0|q4f7dnsz      |              |p5qlsns6 [6]  |nwj7kney      |ab5l6nsy [6]  |a5mekn7d [6]  |              |vgqsen7e      |nx57ynee      |qxo7sn7e      |9gv7en7e      |
-|  1|q4f7dns6      |              |p5qlsnsd [6]  |nwj7knl7      |              |a5mekn7k [6]  |              |vgqs7nes [6]  |nx57yn7s      |qxo7sn7l      |9gv7en7l      |
-|  2|q4f7dner      |              |p5qlsnsk [6]  |o097znlk [6]  |ab5l6nl6      |a5m7znez      |hp57knlr [6]  |vgqs7nez [6]  |nx57yn7z      |qxo7sn7s      |9gv7en7s      |
-|  3|q4f7dney      |              |p5qlsnsr [6]  |o097znlr [6]  |ab5l6nld      |a5m7zne6      |hp57knly [6]  |vgqs7ne6      |nx57yn76      |qxo7sn7z      |9gv7en7z      |
-|  4|q4f7dnl7      |              |p5qlsnlk      |o097znl7      |ab5l6nss      |a5m7zned      |              |vgqs7ned      |nx57yn7d      |qxo7sn7k [6]  |9gv7en76      |
-|  5|q4f7dnle      |              |p5qlsnlr      |o097znle      |ab5l6nsz      |a5m7znek      |              |vgqs7nek      |nx57yn7k      |qxo7sn7r [6]  |9gv7en7d      |
-|  6|              |              |p5qlsnly      |o097znll      |ab5l6ns6      |a5m7zne7      |hp57kns7 [6]  |vgqs7ner      |nx57yn7r      |              |9gv7en7k      |
-|  7|              |              |p5qlsns7      |o097znls      |              |a5m7znee      |hp57knse [6]  |vgqsenek [6]  |nx57yn7y      |              |9gv7en7r      |
-|  8|              |              |p5qlsn7e      |              |ab5l6n7e      |a5m7znel      |              |vgqsener [6]  |nx57yne7      |              |9gv7ln7e      |
-|  9|              |              |p5qlsn7l      |o097znl6      |ab5l6n7l      |a5m7znes      |              |vgqs7ney [6]  |nx57ynel      |              |9gv7ln7l      |
-|  a|q4f7dnsd      |              |p5qlsn7s      |o097znld      |ab5l6nsd      |a5mekn7r [6]  |              |vgqsen7y      |nx57ynes      |              |9gv7ln7s      |
-|  b|q4f7dnsk      |              |p5qlsn7z      |nwj7knls      |              |a5mekn7y [6]  |              |vgqsene7      |nx57ynez      |              |9gv7ln7z      |
-|  c|q4f7dnzl      |              |p5qlsnsy [6]  |nwj7knlz      |ab5l6nsk [6]  |a5mekne7 [6]  |hp57kn7e [6]  |vgqsen7l      |nx57yney      |              |9gv7ln76      |
-|  d|q4f7dnzs      |              |              |              |ab5l6nsr [6]  |a5meknee [6]  |hp57kn7l [6]  |vgqsen7s      |nx57ynl7      |              |9gv7ln7d      |
-|  e|q4f7dnzz      |              |              |              |ab5l6n7s      |a5meknel [6]  |hp57kn7s [6]  |vgqsen7z      |nx57ynle      |              |9gv7ln7k      |
-|  f|q4f7dnz6      |              |              |              |ab5l6n7z      |a5meknes [6]  |hp57kn7z [6]  |vgqsen76      |nx57ynll      |              |9gv7ln7r      |
-| 10|              |              |p5qlsn7y      |              |ab5l6n76      |a5m7ln7k      |hp57kn76      |vgqs7nl7 [6]  |nx5e6n7s [6]  |              |              |
-| 11|              |              |p5qlsne7      |              |ab5l6n7d      |a5m7ln7r      |hp57kn7d      |vgqseney [6]  |nx5e6n7z [6]  |              |              |
-| 12|              |              |p5qlsnee      |              |ab5l6n7k      |a5m7ln7y      |hp57kn7k      |vgqsenl7 [6]  |nx5e6n76 [6]  |              |              |
-| 13|              |              |p5qlsnel      |              |ab5l6n7r      |a5m7lne7      |hp57kn7r      |              |nx5e6n7d [6]  |              |              |
-| 14|q4f7sn7e [6]  |              |p5qlsnes      |              |ab5l6n7y      |a5m7lnee      |hp57kn7y      |              |              |              |              |
-| 15|q4f7sn7l [6]  |              |p5qlsnez      |              |ab5l6ne7      |a5m7lnel      |hp57kne7      |              |              |              |              |
-| 16|q4f7sn7s [6]  |              |p5qlsne6      |              |ab5l6nee      |a5m7lnes      |hp57knee      |              |              |              |              |
-| 17|q4f7sn7z [6]  |              |p5qlsned      |              |ab5l6nel      |a5m7lnez      |hp57knel      |vgqsen7d      |              |              |              |
-| 18|q4f7sn76 [6]  |              |p5qlsney      |              |ab5l6nes      |a5m7lne6      |              |vgqsen7k      |              |              |              |
-| 19|q4f7sn7d [6]  |              |p5qlsnl7      |              |ab5l6nez      |a5m7lned      |              |vgqsen7r      |              |              |              |
-| 1a|q4f7sn7k [6]  |              |p5qlsnle      |              |ab5l6ne6      |a5m7lnek      |              |vgqsenee      |              |              |              |
-| 1b|q4f7sn7r [6]  |              |p5qlsnll      |              |ab5l6ned      |a5m7lner      |              |vgqsenel      |              |              |              |
-| 1c|q4f7sn7y      |              |p5qlsnse      |              |ab5l6nek      |              |              |vgqs7n7e      |              |              |              |
-| 1d|q4f7sne7      |              |p5qlsnsl      |              |ab5l6ner      |              |              |vgqs7n7l      |              |              |              |
-| 1e|q4f7snee      |              |p5qlsnss      |              |ab5l6ney      |              |              |vgqs7n7s      |              |              |              |
-| 1f|q4f7snel      |              |p5qlsnsz      |              |ab5l6nl7      |              |              |vgqs7n7z      |              |              |              |
-| 20|q4f7snes      |              |              |              |ab5l6nle      |              |hp57knle      |vgqs7n76      |              |              |              |
-| 21|q4f7snez      |              |              |              |ab5l6nll      |              |hp57knll      |vgqs7n7d      |              |              |              |
-| 22|q4f7sne6      |              |              |              |ab5l6nls      |              |hp57knls      |vgqs7n7k      |              |              |              |
-| 23|q4f7sned      |              |              |              |ab5l6nlz      |              |              |vgqs7n7r      |              |              |              |
-| 24|q4f7snek      |              |              |              |ab5l6nlk      |              |              |vgqs7n7y      |              |              |              |
-| 25|q4f7sner      |              |              |              |ab5l6nlr      |              |              |vgqs7ne7      |              |              |              |
-| 26|q4f7sney      |              |              |              |ab5l6nly      |              |              |vgqs7nee      |              |              |              |
-| 27|q4f7snl7      |              |              |              |ab5l6ns7      |              |              |vgqs7nel      |              |              |              |
-| 28|              |              |              |              |ab5l6nse      |              |              |vgqsenes      |              |              |              |
-| 29|              |              |              |              |ab5l6nsl      |              |              |vgqsenez      |              |              |              |
-| 2a|              |              |              |              |              |              |              |vgqsene6      |              |              |              |
-| 2b|              |              |              |              |              |              |              |vgqsened      |              |              |              |
-|400|              |jc47eu7e [8]  |p5qlsu7e [8]  |o097zuee [8]  |              |a5m7zu7e [8]  |              |              |              |              |              |
-|401|              |jc47eu7l [8]  |p5qlsu7l [8]  |o097zuel [8]  |              |a5m7zu7l [8]  |              |              |              |              |              |
-|402|              |jc47eu7s [8]  |p5qlsu7s [8]  |o097zues [8]  |              |a5m7zu7s [8]  |              |              |              |              |              |
-|403|              |jc47eu7z [8]  |p5qlsu7z [8]  |o097zuez [8]  |              |a5m7zu7z [8]  |              |              |              |              |              |
-|404|              |jc47eu76 [8]  |p5qlsu76 [8]  |o097zue6 [8]  |              |a5m7zu76 [8]  |              |              |              |              |              |
-|405|              |jc47eu7d [8]  |p5qlsu7d [8]  |o097zued [8]  |              |a5m7zu7d [8]  |              |              |              |              |              |
-|406|              |jc47eu7k [8]  |p5qlsu7k [8]  |o097zuek [8]  |              |a5m7zu7k [8]  |              |              |              |              |              |
-|407|              |jc47eu7r [8]  |p5qlsu7r [8]  |o097zuer [8]  |              |a5m7zu7r [8]  |              |              |              |              |              |
+| 20|2607:f8b0:4000|2607:f8b0:4001|2607:f8b0:4002|2607:f8b0:4004|2607:f8b0:4005|2607:f8b0:4006|2607:f8b0:4007|2607:f8b0:4008|2607:f8b0:4009|2607:f8b0:400a|2607:f8b0:400b|2607:f8b0:400f|2607:f8b0:4012|2607:f8b0:4013|
+|---|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|   |DFW 达拉斯    |CBF           |ATL 亚特兰大  |IAD 华盛顿    |NUQ/SJC 山景城|LGA 纽约      |LAX 洛杉矶    |MIA 迈阿密    |ORD 芝加哥    |SEA 西雅图    |YYZ 多伦多    |DEN 丹佛      |QRO 克雷塔罗  |ATL 亚特兰大  |
+|  0|q4f7dnsz      |              |              |p5qlsns6 [6]  |nwj7kney      |ab5l6nsy [6]  |a5mekn7d [6]  |              |vgqsen7e      |nx57ynee      |              |qxo7sn7e      |9gv7en7e      |5uaezne6      |
+|  1|q4f7dns6      |              |              |p5qlsnsd [6]  |nwj7knl7      |              |a5mekn7k [6]  |              |vgqs7nes [6]  |nx57yn7s      |              |qxo7sn7l      |9gv7en7l      |              |
+|  2|q4f7dner      |              |              |p5qlsnsk [6]  |o097znlk [6]  |ab5l6nl6      |a5m7znez      |hp57knlr [6]  |vgqs7nez [6]  |nx57yn7z      |              |qxo7sn7s      |9gv7en7s      |              |
+|  3|q4f7dney      |              |              |p5qlsnsr [6]  |o097znlr [6]  |ab5l6nld      |a5m7zne6      |hp57knly [6]  |vgqs7ne6      |nx57yn76      |              |qxo7sn7z      |9gv7en7z      |              |
+|  4|q4f7dnl7      |              |              |p5qlsnlk      |o097znl7      |ab5l6nss      |a5m7zned      |              |vgqs7ned      |nx57yn7d      |              |qxo7sn7k [6]  |9gv7en76      |              |
+|  5|q4f7dnle      |              |              |p5qlsnlr      |o097znle      |ab5l6nsz      |a5m7znek      |              |vgqs7nek      |nx57yn7k      |              |qxo7sn7r [6]  |9gv7en7d      |              |
+|  6|              |              |              |p5qlsnly      |o097znll      |ab5l6ns6      |a5m7zne7      |hp57kns7 [6]  |vgqs7ner      |nx57yn7r      |tt17dn7r      |              |9gv7en7k      |              |
+|  7|              |              |              |p5qlsns7      |o097znls      |              |a5m7znee      |hp57knse [6]  |vgqsenek [6]  |nx57yn7y      |tt17dn7y      |              |9gv7en7r      |              |
+|  8|              |              |              |p5qlsn7e      |              |ab5l6n7e      |a5m7znel      |              |vgqsener [6]  |nx57yne7      |tt17dne7      |              |9gv7ln7e      |              |
+|  9|              |              |              |p5qlsn7l      |o097znl6      |ab5l6n7l      |a5m7znes      |              |vgqs7ney [6]  |nx57ynel      |tt17dnee      |              |9gv7ln7l      |              |
+|  a|q4f7dnsd      |              |              |p5qlsn7s      |o097znld      |ab5l6nsd      |a5mekn7r [6]  |              |vgqsen7y      |nx57ynes      |              |              |9gv7ln7s      |              |
+|  b|q4f7dnsk      |              |              |p5qlsn7z      |nwj7knls      |              |a5mekn7y [6]  |              |vgqsene7      |nx57ynez      |              |              |9gv7ln7z      |              |
+|  c|q4f7dnzl      |              |              |p5qlsnsy [6]  |nwj7knlz      |ab5l6nsk [6]  |a5mekne7 [6]  |hp57kn7e [6]  |vgqsen7l      |nx57yney      |              |              |9gv7ln76      |              |
+|  d|q4f7dnzs      |              |              |              |              |ab5l6nsr [6]  |a5meknee [6]  |hp57kn7l [6]  |vgqsen7s      |nx57ynl7      |              |              |9gv7ln7d      |              |
+|  e|q4f7dnzz      |              |              |              |              |ab5l6n7s      |a5meknel [6]  |hp57kn7s [6]  |vgqsen7z      |nx57ynle      |              |              |9gv7ln7k      |              |
+|  f|q4f7dnz6      |              |              |              |              |ab5l6n7z      |a5meknes [6]  |hp57kn7z [6]  |vgqsen76      |nx57ynll      |              |              |9gv7ln7r      |              |
+| 10|              |              |              |p5qlsn7y      |              |ab5l6n76      |a5m7ln7k      |hp57kn76      |vgqs7nl7 [6]  |nx5e6n7s [6]  |              |              |              |              |
+| 11|              |              |              |p5qlsne7      |              |ab5l6n7d      |a5m7ln7r      |hp57kn7d      |vgqseney [6]  |nx5e6n7z [6]  |              |              |              |              |
+| 12|              |              |              |p5qlsnee      |              |ab5l6n7k      |a5m7ln7y      |hp57kn7k      |vgqsenl7 [6]  |nx5e6n76 [6]  |              |              |              |              |
+| 13|              |              |              |p5qlsnel      |              |ab5l6n7r      |a5m7lne7      |hp57kn7r      |              |nx5e6n7d [6]  |              |              |              |              |
+| 14|q4f7sn7e [6]  |              |              |p5qlsnes      |              |ab5l6n7y      |a5m7lnee      |hp57kn7y      |              |              |              |              |              |              |
+| 15|q4f7sn7l [6]  |              |              |p5qlsnez      |              |ab5l6ne7      |a5m7lnel      |hp57kne7      |              |              |              |              |              |              |
+| 16|q4f7sn7s [6]  |              |5uaeznss      |p5qlsne6      |              |ab5l6nee      |a5m7lnes      |hp57knee      |              |              |              |              |              |              |
+| 17|q4f7sn7z [6]  |              |5uaeznsz      |p5qlsned      |              |ab5l6nel      |a5m7lnez      |hp57knel      |vgqsen7d      |              |              |              |              |              |
+| 18|q4f7sn76 [6]  |              |              |p5qlsney      |              |ab5l6nes      |a5m7lne6      |              |vgqsen7k      |              |              |              |              |              |
+| 19|q4f7sn7d [6]  |              |              |p5qlsnl7      |              |ab5l6nez      |a5m7lned      |              |vgqsen7r      |              |              |              |              |              |
+| 1a|q4f7sn7k [6]  |              |5uaeznzr [18] |p5qlsnle      |              |ab5l6ne6      |a5m7lnek      |              |vgqsenee      |              |              |              |              |              |
+| 1b|q4f7sn7r [6]  |              |              |p5qlsnll      |              |ab5l6ned      |a5m7lner      |              |vgqsenel      |              |              |              |              |              |
+| 1c|q4f7sn7y      |              |              |p5qlsnse      |              |ab5l6nek      |              |              |vgqs7n7e      |              |              |              |              |              |
+| 1d|q4f7sne7      |              |              |p5qlsnsl      |              |ab5l6ner      |              |              |vgqs7n7l      |              |              |              |              |              |
+| 1e|q4f7snee      |              |5uayyn7s [6]  |p5qlsnss      |              |ab5l6ney      |              |              |vgqs7n7s      |              |              |              |              |              |
+| 1f|q4f7snel      |              |              |p5qlsnsz      |              |ab5l6nl7      |              |              |vgqs7n7z      |              |              |              |              |              |
+| 20|q4f7snes      |              |              |              |              |ab5l6nle      |              |hp57knle      |vgqs7n76      |              |              |              |              |              |
+| 21|q4f7snez      |              |              |              |              |ab5l6nll      |              |hp57knll      |vgqs7n7d      |              |              |              |              |              |
+| 22|q4f7sne6      |              |              |              |              |ab5l6nls      |              |hp57knls      |vgqs7n7k      |              |              |              |              |              |
+| 23|q4f7sned      |              |              |              |              |ab5l6nlz      |              |              |vgqs7n7r      |              |              |              |              |              |
+| 24|q4f7snek      |              |5uaeznz6 [6]  |              |              |ab5l6nlk      |              |              |vgqs7n7y      |              |              |              |              |              |
+| 25|q4f7sner      |              |5uaeznzd [6]  |              |              |ab5l6nlr      |              |              |vgqs7ne7      |              |              |              |              |              |
+| 26|q4f7sney      |              |              |              |              |ab5l6nly      |              |              |vgqs7nee      |              |              |              |              |              |
+| 27|q4f7snl7      |              |              |              |              |ab5l6ns7      |              |              |vgqs7nel      |              |              |              |              |              |
+| 28|              |              |5uaeznzy [18] |              |              |ab5l6nse      |              |              |vgqsenes      |              |              |              |              |              |
+| 29|              |              |5uaezn67 [18] |              |              |ab5l6nsl      |              |              |vgqsenez      |              |              |              |              |              |
+| 2a|              |              |              |              |              |              |              |              |vgqsene6      |              |              |              |              |              |
+| 2b|              |              |5uaezn6l [6]  |              |              |              |              |              |vgqsened      |              |              |              |              |              |
+| 2c|              |              |5uaezn6s [6]  |              |              |              |              |              |              |              |              |              |              |              |
+|400|              |jc47eu7e [8]  |              |p5qlsu7e [8]  |o097zuee [8]  |              |a5m7zu7e [8]  |              |              |              |              |              |              |              |
+|401|              |jc47eu7l [8]  |              |p5qlsu7l [8]  |o097zuel [8]  |              |a5m7zu7l [8]  |              |              |              |              |              |              |              |
+|402|              |jc47eu7s [8]  |              |p5qlsu7s [8]  |o097zues [8]  |              |a5m7zu7s [8]  |              |              |              |              |              |              |              |
+|403|              |jc47eu7z [8]  |              |p5qlsu7z [8]  |o097zuez [8]  |              |a5m7zu7z [8]  |              |              |              |              |              |              |              |
+|404|              |jc47eu76 [8]  |              |p5qlsu76 [8]  |o097zue6 [8]  |              |a5m7zu76 [8]  |              |              |              |              |              |              |              |
+|405|              |jc47eu7d [8]  |              |p5qlsu7d [8]  |o097zued [8]  |              |a5m7zu7d [8]  |              |              |              |              |              |              |              |
+|406|              |jc47eu7k [8]  |              |p5qlsu7k [8]  |o097zuek [8]  |              |a5m7zu7k [8]  |              |              |              |              |              |              |              |
+|407|              |jc47eu7r [8]  |              |p5qlsu7r [8]  |o097zuer [8]  |              |a5m7zu7r [8]  |              |              |              |              |              |              |              |
+|802|              |              |              |              |              |              |              |              |              |              |tt17rn76      |              |              |              |
+|803|              |              |              |              |              |              |              |              |              |              |tt17rn7d      |              |              |              |
+|804|              |              |              |              |              |              |              |              |              |              |tt17rn7k      |              |              |              |
+|805|              |              |              |              |              |              |              |              |              |              |tt17rn7r      |              |              |              |
 
 | 20|2800:3f0:4001 |2800:3f0:4002 |
 |---|--------------|--------------|
