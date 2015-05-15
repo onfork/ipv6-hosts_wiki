@@ -3,7 +3,7 @@
 如 [[Google]] 页面所述，Google 的 IP 分为两大类，[[1e100.net]] 和 [[sn-domains]]。
 
 前者用于动态域名解析，提供普通服务，如 Google Search，Gmail，Google Maps。  
-后者用于 [[Youtube]]，Google Docs，Android Clients (Google Play) 等需要大量存储空间的服务的缓存。
+后者用于 [[YouTube]]，Google Docs，Android Clients (Google Play) 等需要大量存储空间的服务的缓存。
 
 下面针对这两种 IP 介绍自定义方法。
 
@@ -69,11 +69,11 @@ dig @8.8.8.8 +vc +short aaaa www.google.com
   3. 客户端向第二次分配的服务器 `r8.sn-o097znel` 请求视频文件。
   4. 如果第二次分配的服务器还无法访问，那么失败。
 
-第一步是根据来源 IP 进行导向的，所以你无法通过自己重定向来加速，除非用代理访问 youtube.com 这个域名 (间接改变来源 IP)，然后直连分配的 googlevideo 服务器。
+第一步是根据来源 IP 进行导向的，并且 sn 域名全是固定 IP，所以无法进行重定向来加速。除非用代理访问 youtube.com 这个域名 (间接改变来源 IP)，然后直连分配的 googlevideo 服务器。
 
-可以访问 `https://redirector.googlevideo.com/report_mapping` 来查询 Youtube 为你分配的节点。
+可以访问 `https://redirector.googlevideo.com/report_mapping` 来查询 YouTube 为你分配的节点。
 
-> 扩展阅读，[Youtube 工作原理](http://www.slideshare.net/Netmanias/netmanias20120416ggc-operation-for-you-tube-part-1-kt-en)。
+> 扩展阅读，[YouTube 工作原理](http://www.slideshare.net/Netmanias/netmanias20120416ggc-operation-for-you-tube-part-1-kt-en)。
 
 Google 不定期地会增加一批 `googlevideo.com` 服务器。
 
