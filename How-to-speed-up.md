@@ -59,6 +59,19 @@ traceroute to hkg03s09-in-x01.1e100.net (2404:6800:4005:800::1001), 30 hops max,
 不过你没必要自己更新，因为除了可以在 DNS 直接查询到的地址，hosts 中还存在一部分需要手动指定 IP 的域名，每次更新过后需要额外添加。
 
 * 只有在你的网络环境不需要经过洛杉矶就能到达香港/日本时，你才需要指定其他的 DNS 重新更新 hosts。
+* **附：**每次使用 `update_hosts.py` 更新过后，需要手动指定 IP 的域名列表
+  ```
+  2607:f8b0:4007:804::1002 scholar.google.com
+  2607:f8b0:4007:804::1002 scholar.google.com.hk
+  2607:f8b0:4007:804::1002 scholar.google.com.tw
+  2607:f8b0:4007:804::1002 android.clients.google.com
+  2607:f8b0:400e:c04::7b wifi.google.com
+  
+  2607:f8b0:4007:804::1002 android.l.google.com
+  2607:f8b0:4007:804::1002 scholar.l.google.com
+  2607:f8b0:400e:c04::7b wifi.l.google.com
+  ```
+  `1002` 可以换成 `1000` - `101f` 中任意一个，原理见 [[1e100.net]]。
 
 ===
 
