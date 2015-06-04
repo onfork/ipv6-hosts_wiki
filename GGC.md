@@ -14,6 +14,7 @@ GGC 服务器域名以 SN 编码的形式存在，格式如下：
 | ------------------------ | ------------------ | ------------------ |
 | 2001:660:302a:1::/64     | renater-cdg1       | gxo5uxg-jqbe       |
 | 2001:7f8:49:1::/64       | ronix-otp1         | gvopm-vu2e         |
+| 2001:f18:113:14::/64     | nctu-tpe2          | oju0-u2xl          |
 | 2001:f40:0:5::/64        | timedotcom-kul2    | uphxqvujvh-30al    |
 | 2001:1438:0:1006::/64    | versatel-dtm1      | 8xgn5uxa-quhe      |
 | 2001:1900:2200:f::/64    | lvlt-iad4          | a8au-p5qz          |
