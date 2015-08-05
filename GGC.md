@@ -1,5 +1,8 @@
 如 [Google] 页面所述，GGC 是 Google CDN 的一部分，由 ISP 和 Google 共同提供。
 
+> 查看分配给你的 GGC https://redirector.googlevideo.com/report_mapping
+
+
 GGC 服务器域名以 SN 编码的形式存在，格式如下：
 
     r?---sn-[isp name]-[loc][x].googlevideo.com
@@ -45,7 +48,6 @@ GGC 服务器域名以 SN 编码的形式存在，格式如下：
 | 2a00:800:1100:1::/64     | teletwo-vie2       | uxaxufv-8pxl       |
 | 2a00:1e48:1:b::/64       | transtelecom-ovb1  | ug5onuxaxjvh-v8ce  |
 ```
-    
 
 
 [Google]: https://github.com/lennylxx/ipv6-hosts/wiki/Google
