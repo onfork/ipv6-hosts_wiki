@@ -12,7 +12,7 @@ According to the [domain list] collected so far, the pattern is similar to [[1e1
 
     r1---sn-a5mekn7r.googlevideo.com
 
-1. First 3 char `[123]` represent city name, it's converted from [IATA airport code]. Read more at [1e100.net servers deployment geoinfo].
+1. `[123]` represents city name, it's converted from [IATA airport code]. Read more at [1e100.net servers deployment geoinfo].
 
    **Conversion rules**  
    * The 25 chars in the following box represent `a-y` respectively from left to right, top to bottom, i.e, `5` is for `a`, `t` is for `y`.
@@ -95,10 +95,10 @@ According to the [domain list] collected so far, the pattern is similar to [[1e1
         return code
     ```
 
-3. `[6]` in the domain is `n` or `u` for IPv6, it's `m` for IPv4.
+3. `[6]` in the SN domain is `n` or `u` for IPv6, it's `m` for IPv4.
 
-    The range of `49-64` bits in `n`'s corresponding IPv6 address is `0 - 3ff`.  
-    The range of `49-64` bits in `u`'s corresponding IPv6 address is `400 - 7ff`.  
+    The range of `49-64` bits in `n`'s corresponding IPv6 addresses is `0 - 3ff`.  
+    The range of `49-64` bits in `u`'s corresponding IPv6 addresses is `400 - 7ff`.  
     (Read more about the IPv6 address allocation rules at [[Google]].)
 
     e.g. 
