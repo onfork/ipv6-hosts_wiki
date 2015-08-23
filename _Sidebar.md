@@ -1,0 +1,12 @@
+- [Home](Home)
+- [[Google]]
+  - [[Do It Yourself]]
+  - [[How to speed up]]
+  - [[1e100.net]]
+  - [[AS15169]]
+  - [[YouTube]]
+  - [[SN domains]]
+  - [[GGC]]
+  - [[How Big is Google]]
+- [[Hosts file format]]
+- [[Openwrt]]
