@@ -1,4 +1,4 @@
-As [[Google]] discribed, GGC is an important part of Google CDN, provided by ISP
+As [[Google]] described, GGC is an important part of Google CDN, provided by ISP
 and Google.
 
 > See the GGC servers allocated to you at
@@ -9,15 +9,15 @@ and Google.
 
     r?---sn-[isp name]-[loc][x].googlevideo.com
 
-1. `[isp name]` is the encoded ISP name, convertion rules are same as
+1. `[isp name]` is the encoded ISP name, conversion rules are same as
     [[SN domains]], the length varies.
-2. `[loc]` is the encoded [IATA airport code], same convertion rules, the length
+2. `[loc]` is the encoded [IATA airport code], same conversion rules, the length
     is `3`.
 3. `[x]` is the encoded number of server group, length is `1`.
 
-> See [convertion code].
+> See [conversion code].
 
-Common GGC server domains convertion result table
+Common GGC server domains conversion result table
 ```
 | IPv6 Prefix              | ISP NAME           | GGC Serial Number  |
 | ------------------------ | ------------------ | ------------------ |
@@ -55,5 +55,5 @@ Common GGC server domains convertion result table
 | 2a00:1e48:1:b::/64       | transtelecom-ovb1  | ug5onuxaxjvh-v8ce  |
 ```
 
-[convertion code]:  https://github.com/lennylxx/ipv6-hosts/blob/master/tools/conv.py
+[conversion code]:  https://github.com/lennylxx/ipv6-hosts/blob/master/tools/conv.py
 [IATA airport code]: https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
