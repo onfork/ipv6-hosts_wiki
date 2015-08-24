@@ -1,8 +1,12 @@
 > This page explains the encoding method of SN domains that have 8 characters.  
-> Other forms please refer to [[GGC]]。
+> Other form please refer to [[GGC]].
 
-[SN domains] are widely used in YouTube video cache servers. There are 8 significant characters which represent the servers' geographic location and serial number of server groups.  
-According to the [domain list] collected so far, the pattern is similar to [[1e100.net]].  
+[SN domains] are widely used in YouTube video cache servers.
+There are 8 significant characters which represent the servers' geographic
+location and serial number of server groups.
+
+According to the [domain list] collected so far, the pattern is similar to
+[[1e100.net]].
 
 **Pattern**
 
@@ -12,14 +16,17 @@ According to the [domain list] collected so far, the pattern is similar to [[1e1
 
     r1---sn-a5mekn7r.googlevideo.com
 
-1. `[123]` represents city name, it's converted from [IATA airport code]. Read more at [1e100.net servers deployment geoinfo].
+1. `[123]` represents city name, it's converted from [IATA airport code].
+   Read more at [1e100.net servers deployment geoinfo].
 
    **Conversion rules**  
-   * The 25 chars in the following box represent `a-y` respectively from left to right, top to bottom, i.e, `5` is for `a`, `t` is for `y`.
+   * The 25 chars in the following box represent `a-y` respectively from left
+     to right, top to bottom, i.e, `5` is for `a`, `t` is for `y`.
    * Note that the char in the bottom left corner is `0`, not `1`.
    * Besides, `1` is for `z`.
 
-   According to the rules, `a5m` in the example above can be reverse converted to `lax`, it's Los Angeles.
+   According to the rules, `a5m` in the example above can be reverse converted
+   to `lax`, it's Los Angeles.
 
     ```
     | 6 d k r y |
@@ -44,6 +51,7 @@ According to the [domain list] collected so far, the pattern is similar to [[1e1
             sn += table[i]
         return sn
     ```
+
     Reverse conversion:
     ```python
     table = '1023456789abcdefghijklmnopqrstuvwxyz'
@@ -57,7 +65,9 @@ According to the [domain list] collected so far, the pattern is similar to [[1e1
         return iata
     ```
 
-2. `[45]` and `[78]` are combinations of first column's 10 chars in the table below. They represent the servers' group number. It's `0-9` from top to bottom respectively.
+2. `[45]` and `[78]` are combinations of first column's 10 chars in the table
+    below. They represent the servers' group numbers. It's `0-9` from top to
+    bottom respectively.
 
     ```
       | 1 2 3 4 5 6
@@ -102,11 +112,14 @@ According to the [domain list] collected so far, the pattern is similar to [[1e1
     (Read more about the IPv6 address allocation rules at [[Google]].)
 
     e.g. 
-    * `a5mekn7r`, IPv6 prefix is `2607:f8b0:4007:a::/64`, IPv4 prefix is `74.125.103.0/24`.
-    * `a5m7zu7r`, IPv6 prefix is `2607:f8b0:4007:407::/64`, IPv4 prefix is `74.125.215.0/24`.
+    * `a5mekn7r`, IPv6 prefix is `2607:f8b0:4007:a::/64`,
+                  IPv4 prefix is`74.125.103.0/24`.
+    * `a5m7zu7r`, IPv6 prefix is `2607:f8b0:4007:407::/64`,
+                  IPv4 prefix is `74.125.215.0/24`.
     * `a5mekm76`, no IPv6, IPv4 prefix is `208.117.242.0/24`.  
 
-    `a5m` can be reverse converted to `lax`, so all of three SN domains above belong to Los Angeles.
+    `a5m` can be reverse converted to `lax`, so all of three SN domains above
+     belong to Los Angeles.
 
 
 * We can convert `lax17s08` of 1e100.net style to `a5mekn7r` of SN domains style.

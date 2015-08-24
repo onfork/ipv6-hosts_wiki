@@ -1,17 +1,23 @@
-如 [Google] 页面所述，GGC 是 Google CDN 的一部分，由 ISP 和 Google 共同提供。
+As [[Google]] discribed, GGC is an important part of Google CDN, provided by ISP
+and Google.
 
-> 查看分配给你的 GGC https://redirector.googlevideo.com/report_mapping
+> See the GGC servers allocated to you at
+  https://redirector.googlevideo.com/report_mapping
 
 
-GGC 服务器域名以 SN 编码的形式存在，格式如下：
+**Pattern** of GGC server domains
 
     r?---sn-[isp name]-[loc][x].googlevideo.com
 
-1. `[isp name]` 是经过转换的 ISP 名称，转换规则与 [SN 编码]相同。长度不等。
-2. `[loc]` 是 [IATA 机场编码]转换后的结果，转换规则同上，长度为 3 位。
-3. `[x]` 服务器编号，由数字转换而来，1 位。
+1. `[isp name]` is the encoded ISP name, convertion rules are same as
+    [[SN domains]], the length varies.
+2. `[loc]` is the encoded [IATA airport code], same convertion rules, the length
+    is `3`.
+3. `[x]` is the encoded number of server group, length is `1`.
 
-常见域名转换前后对照表
+> See [convertion code].
+
+Common GGC server domains convertion result table
 ```
 | IPv6 Prefix              | ISP NAME           | GGC Serial Number  |
 | ------------------------ | ------------------ | ------------------ |
@@ -49,7 +55,5 @@ GGC 服务器域名以 SN 编码的形式存在，格式如下：
 | 2a00:1e48:1:b::/64       | transtelecom-ovb1  | ug5onuxaxjvh-v8ce  |
 ```
 
-
-[Google]: https://github.com/lennylxx/ipv6-hosts/wiki/Google
-[SN 编码]: https://github.com/lennylxx/ipv6-hosts/wiki/sn-domains
-[IATA 机场编码]: https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
+[convertion code]:  https://github.com/lennylxx/ipv6-hosts/blob/master/tools/conv.py
+[IATA airport code]: https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
