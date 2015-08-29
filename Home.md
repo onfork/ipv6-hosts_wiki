@@ -16,7 +16,7 @@ Some information.
 
 What is this project capable of ? 
 =================================
-4K video streaming in 22510 Kbps.
+4K video streaming in 160174 Kbps.
 ![screenshot](https://raw.githubusercontent.com/wiki/lennylxx/ipv6-hosts/youtube.jpg)
 ====
 All the IPv6 traffic to USA, Japan, Hong Kong go through Los Angeles now.  
