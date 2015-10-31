@@ -110,5 +110,5 @@ Google 不定期地会增加一批 `googlevideo.com` 服务器。
 7. 更新 hosts 文件。
 
    ```
-   $ rm hosts && ./merge_hosts.sh hosts
+   $ rm hosts && ./merge_snippets.sh hosts
    ```
