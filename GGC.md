@@ -13,7 +13,7 @@ and Google.
     [[SN domains]], the length varies.
 2. `[loc]` is the encoded [IATA airport code], same conversion rules, the length
     is `3`.
-3. `[x]` is the encoded number of server group, length is `1`.
+3. `[x]` is the encoded number of server group, length is `1` or `2`.
 
 > See [conversion code].
 
