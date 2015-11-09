@@ -26,10 +26,13 @@ Common GGC server domains conversion result table
 | 2001:f18:113:14::/64     | nctu-tpe2          | oju0-u2xl          |
 | 2001:f40:0:5::/64        | timedotcom-kul2    | uphxqvujvh-30al    |
 | 2001:1438:0:1006::/64    | versatel-dtm1      | 8xgn5uxa-quhe      |
+| 2001:16d8:4:7::/64       | availo-bma1        | 585pav-ch5e        |
 | 2001:1900:2200:f::/64    | lvlt-iad4          | a8au-p5qz          |
 | 2001:1900:2200:10::/64   | lvlt-bos1          | a8au-cvne          |
 | 2001:1900:2200:20::/64   | lvlt-slc1          | a8au-naje          |
 | 2001:1900:2200:80::/64   | lvlt-bna1          | a8au-co5e          |
+| 2001:1900:229e::/64      | lvlt-lax1          | a8au-a5me          |
+| 2001:1a80:100:1c::/64    | qsc-fra1           | 9nj-4g5e           |
 | 2001:1bc8:100:1b::/64    | nebula-hel1        | oxc0a5-ixae        |
 | 2001:1bd0:1:12::/64      | retelit-mxp1       | gxuxapu-hm2e       |
 | 2001:4350:0:12::/64      | ati-tun1           | 5up-u0oe           |
@@ -39,6 +42,7 @@ Common GGC server domains conversion result table
 | 2001:b000:182:c100::/64  | phinet-tsa1        | 2ipoxu-un5e        |
 | 2001:b000:182:c101::/64  | phinet-tsa2        | 2ipoxu-un5l        |
 | 2001:b032:2101::/64      | hinet-tsa4         | ipoxu-un5z         |
+| 2001:b032:5d00::/64      | hinet-tpe3         | ipoxu-u2xs         |
 | 2400:9800:0:f021::/64    | excelcom-cgk1      | xmjxajvh-jb3e      |
 | 2400:c700:2000:2::/64    | ideacellular-pnq2  | pqx5jxaa0a5g-2o9l  |
 | 2403:5000:171:24::/64    | hgc-hkg3           | ibj-i3bs           |
@@ -52,6 +56,7 @@ Common GGC server domains conversion result table
 | 2806:10a0:cfff:3::/64    | uninet-pbc6        | 0opoxu-2cjd        |
 | 2a00:800:1100::/64       | teletwo-vie1       | uxaxufv-8pxe       |
 | 2a00:800:1100:1::/64     | teletwo-vie2       | uxaxufv-8pxl       |
+| 2a00:ff0:1234:2::/64     | interlan-otp2      | pouxga5o-vu2l      |
 | 2a00:1e48:1:b::/64       | transtelecom-ovb1  | ug5onuxaxjvh-v8ce  |
 ```
 
