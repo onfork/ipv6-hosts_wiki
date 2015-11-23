@@ -36,6 +36,8 @@
 
 Google 在自己的网络中应用了 任播 ([Anycast](https://en.wikipedia.org/wiki/Anycast)) 技术。简单来说，就是服务请求方并不关心服务提供方具体是哪一台主机，根据来源 IP 和数据包 (包含 URL 信息)，任意一台服务器都可以提供多种服务。
 
+(阅读 [Google Public DNS FAQ](https://developers.google.com/speed/public-dns/faq) 了解更多信息。)
+
 比如向 `8.8.8.8` 进行 DNS 查询时，不同的来源 IP 会得到不同的查询结果。
 ```
 dig @8.8.8.8 +vc +short aaaa www.google.com
