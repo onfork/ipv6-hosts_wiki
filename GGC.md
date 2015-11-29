@@ -1,7 +1,7 @@
 As [[Google]] described, GGC is an important part of Google CDN, provided by ISP
 and Google.
 
-> See the GGC servers allocated to you at
+> Inquire the GGC servers assigned to you at
   https://redirector.googlevideo.com/report_mapping
 
 
