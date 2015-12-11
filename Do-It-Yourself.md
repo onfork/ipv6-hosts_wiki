@@ -1,6 +1,6 @@
 > 授人以鱼，不如授人以渔。
 
-如 [[Google]] 页面所述，Google 的 IP 分为两大类，[[1e100.net]] 和 [[sn-domains]]。
+如 [[Google]] 页面所述，Google 的 IP 分为两大类，[[1e100.net]] (Google Web Server, gws) 和 [[sn-domains]] (Google Video Server, gvs)。
 
 前者用于动态域名解析，提供普通服务，如 Google Search，Gmail，Google Maps。  
 后者用于 [[YouTube]]，Google Docs，Android Clients (Google Play) 等需要大量存储空间的服务的缓存。
@@ -34,7 +34,9 @@
 
 **原理：**
 
-Google 在自己的网络中应用了 任播 ([Anycast](https://en.wikipedia.org/wiki/Anycast)) 技术。简单来说，就是服务请求方并不关心服务提供方具体是哪一台主机，根据来源 IP 和数据包 (包含 URL 信息)，任意一台服务器都可以提供多种服务。
+Google 的 gws 服务器支持 [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication) 技术，可根据客户端 SSL Client Hello 中的 SNI 信息，自动提供相应的 SSL 证书。因此，根据来源 IP 和数据包 (包含 HTTP/SNI 信息)，正常情况下，Google 任意一台 gws 服务器都可以提供多种服务。
+
+Google DNS 支持 EDNS Client Subnet ，根据客户端的 IP 地址，智能解析到离客户端最近的服务器 IP 。 
 
 (阅读 [Google Public DNS FAQ](https://developers.google.com/speed/public-dns/faq) 了解更多信息。)
 
