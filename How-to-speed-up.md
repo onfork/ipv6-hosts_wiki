@@ -50,30 +50,33 @@ traceroute to hkg03s09-in-x01.1e100.net (2404:6800:4005:800::1001), 30 hops max,
 ```
 可以看到结果中有一个关键节点 `10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::1)`，这是 Hurricane Electric 位于洛杉矶的路由器。
 
-因此如何加速就显而易见了，选择位于洛杉矶的 DNS 即可，如 `tserv1.lax1.he.net`。
+~~因此如何加速就显而易见了，选择位于洛杉矶的 DNS 即可，如 `tserv1.lax1.he.net`。~~
 
 本项目提供了一个[更新 hosts 的脚本]，你可以这样使用：
 ```
-./update_hosts.py snippets/01_google.txt -s tserv1.lax1.he.net -o new_google.txt -n 128 -c 
+./update_hosts.py snippets/01_google.txt -s ordns.he.net -o new_google.txt -n 128 -c 
 ```
 不过你没必要自己更新，因为除了可以在 DNS 直接查询到的地址，hosts 中还存在一部分需要手动指定 IP 的域名，每次更新过后需要额外添加。
 
 * 只有在你的网络环境不需要经过洛杉矶就能到达香港/日本时，你才需要指定其他的 DNS 重新更新 hosts。
 * **附：**每次使用 `update_hosts.py` 更新过后，需要手动指定 IP 的域名列表
   ```
-  2607:f8b0:4007:804::1002 scholar.google.com
-  2607:f8b0:4007:804::1002 scholar.google.com.hk
-  2607:f8b0:4007:804::1002 scholar.google.com.tw
-  2607:f8b0:4007:804::1002 android.clients.google.com
-  2607:f8b0:4007:804::1002 console.developer.google.com
-  2607:f8b0:400e:c04::7b wifi.google.com
-  2607:f8b0:4007:804::1002 www.google.org
-  
-  2607:f8b0:4007:804::1002 android.l.google.com
-  2607:f8b0:4007:804::1002 scholar.l.google.com
-  2607:f8b0:400e:c04::7b wifi.l.google.com
+  2404:6800:4005:800::2000 scholar.google.com
+  2404:6800:4005:800::2003 scholar.google.com.hk
+  2404:6800:4005:800::2003 scholar.google.com.tw
+  2404:6800:4005:800::2000 android.clients.google.com
+  2404:6800:4008:c06::52 console.developer.google.com
+  2404:6800:4008:c06::7b wifi.google.com
+  2404:6800:4005:800::2000 www.google.org
+  2404:6800:4005:800::2000 www.chromium.org
+  2404:6800:4005:800::2000 dev.chromium.org
+  2404:6800:4005:800::2000 blog.chromium.org
+
+  2404:6800:4005:800::2000 android.l.google.com
+  2404:6800:4005:800::2000 scholar.l.google.com
+  2404:6800:4008:c06::7b wifi.l.google.com
   ```
-  `1002` 可以换成 `1000` - `101f` 中任意一个，原理见 [[1e100.net]]。
+  
 
 ===
 
