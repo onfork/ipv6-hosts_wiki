@@ -65,7 +65,8 @@ traceroute to hkg03s09-in-x01.1e100.net (2404:6800:4005:800::1001), 30 hops max,
   2404:6800:4005:800::2003 scholar.google.com.hk
   2404:6800:4005:800::2003 scholar.google.com.tw
   2404:6800:4005:800::2000 android.clients.google.com
-  2404:6800:4008:c06::52 console.developer.google.com
+  2404:6800:4005:800::2000 console.developer.google.com
+  2404:6800:4008:c06::52 console.developers.google.com
   2404:6800:4008:c06::7b wifi.google.com
   2404:6800:4005:800::2000 www.google.org
   2404:6800:4005:800::2000 www.chromium.org
