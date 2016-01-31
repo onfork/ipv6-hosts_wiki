@@ -14,6 +14,6 @@ So, we can know that:
 
 1. hosts file doesn't support wildcard and regex expression.  
    `123.123.123.123 *.mydomain.com`  
-   Lines like this is illegal.
+   Lines like this are illegal.
 2. Comments can be placed at the end of line.  
    `123.123.123.123 foo.mydomain.com #comments`
