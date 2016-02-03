@@ -27,6 +27,7 @@ Common GGC server domains conversion result table
 | 2001:f40:0:5::/64        | timedotcom-kul2    | uphxqvujvh-30al    |
 | 2001:1438:0:1006::/64    | versatel-dtm1      | 8xgn5uxa-quhe      |
 | 2001:16d8:4:7::/64       | availo-bma1        | 585pav-ch5e        |
+| 2001:1900:210a::/64      | lvlt-ewr1          | a8au-xfge          |
 | 2001:1900:2200:f::/64    | lvlt-iad4          | a8au-p5qz          |
 | 2001:1900:2200:10::/64   | lvlt-bos1          | a8au-cvne          |
 | 2001:1900:2200:20::/64   | lvlt-slc1          | a8au-naje          |
@@ -45,11 +46,13 @@ Common GGC server domains conversion result table
 | 2001:b032:5d00::/64      | hinet-tpe3         | ipoxu-u2xs         |
 | 2400:9800:0:f021::/64    | excelcom-cgk1      | xmjxajvh-jb3e      |
 | 2400:c700:2000:2::/64    | ideacellular-pnq2  | pqx5jxaa0a5g-2o9l  |
+| 2402:9200:18:2::/64      | waia-mel1          | f5p5-hxae          |
 | 2403:5000:171:24::/64    | hgc-hkg3           | ibj-i3bs           |
 | 2404:8000:10:22::/64     | biznet-cgk1        | cp1oxu-jb3e        |
 | 2406:e100:0:1::/64       | ixsforall-mnl1     | pmn4vg5aa-hoae     |
 | 2407:0:0:10::/64         | indosat-cgk1       | poqvn5u-jb3e       |
 | 2407:0:0:11::/64         | indosat-cgk2       | poqvn5u-jb3l       |
+| 2620:4b::/64             | wpgix-ywg1         | f2bpm-tfbe         |
 | 2620:11a:a00c::/64       | mice-msp1          | hpjx-hn2e          |
 | 2620:11a:a00e::/64       | google-msp1        | bvvbax-hn2e        |
 | 2620:11a:a00e:1::/64     | google-msp2        | bvvbax-hn2l        |
