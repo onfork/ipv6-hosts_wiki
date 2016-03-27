@@ -10,7 +10,7 @@
     v?.nonxt?.googlevideo.com
     tc.v?.cache?.googlevideo.com
 
-经过实践，以上三种域名都是`bandaid-redirector.l.google.com`的aliase，
+经过实践，以上三种域名都是`bandaid-redirector.l.google.com`的alias，
 由重定向服务器分配IP，地址不固定。  
 但是所有地址在某一时间段内分配的IP都是同一个。  
 每种域名有8组，每组域名24个，v1-v24。
