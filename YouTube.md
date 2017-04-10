@@ -3,8 +3,7 @@
 *.c.youtube.com 和 *.googlevideo.com 指向的地址是相同的。  
 下文只列出 *.googlevideo.com。
 
-1. 域名重定向地址
------------------
+# 1. 域名重定向地址
 
     v?.lscache?.googlevideo.com
     v?.nonxt?.googlevideo.com
@@ -15,8 +14,7 @@
 但是所有地址在某一时间段内分配的IP都是同一个。  
 每种域名有8组，每组域名24个，v1-v24。
 
-2. 固定地址
------------
+# 2. 固定地址
 
     v?.cache?.googlevideo.com
 
@@ -25,8 +23,7 @@
 第8段取值范围10-17。
 每组域名共8个，v1-v8。
 
-3. 前缀限定地址
----------------
+# 3. 前缀限定地址
 
     r?.xxx??s??.googlevideo.com
     r?---xxx??s??.googlevideo.com
@@ -35,8 +32,7 @@
 IP段和IATA机场编码可参照 [[1e100.net]] 的[服务器部署信息表格]。  
 每组域名共20个，r1-r20。   
 
-4. SN 编码地址
---------------
+# 4. SN 编码地址
 
     r?.sn-xxxxxxxx.googlevideo.com
     r?---sn-xxxxxxxx.googlevideo.com
