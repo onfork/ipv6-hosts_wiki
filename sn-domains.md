@@ -66,7 +66,7 @@ According to the [domain list] collected so far, the pattern is similar to
     ```
 
 2. `[45]` and `[78]` are combinations of first column's 10 chars in the table
-    below. They represent the servers' group numbers. It's `0-9` from top to
+    below. They represent the servers' group (Point of Presence) numbers. It's `0-9` from top to
     bottom respectively.
 
     ```
