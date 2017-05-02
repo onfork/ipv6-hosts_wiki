@@ -39,6 +39,7 @@ Common GGC server domains conversion result table
 | 2001:4350:0:12::/64      | ati-tun1           | 5up-u0oe           |
 | 2001:4350:2048:12::/64   | ati-tun2           | 5up-u0ol           |
 | 2001:4490:3ffd:8001::/64 | bsnl-maa2          | cnoa-h55l          |
+| 2001:4490:3ffc:4::/64    | bsnl-jai1          | cnoa-w5pe          |
 | 2001:4498:a:200::/64     | timedotcom-kul1    | uphxqvujvh-30ae    |
 | 2001:b000:182:c100::/64  | phinet-tsa1        | 2ipoxu-un5e        |
 | 2001:b000:182:c101::/64  | phinet-tsa2        | 2ipoxu-un5l        |
@@ -61,6 +62,8 @@ Common GGC server domains conversion result table
 | 2a00:800:1100:1::/64     | teletwo-vie2       | uxaxufv-8pxl       |
 | 2a00:ff0:1234:2::/64     | interlan-otp2      | pouxga5o-vu2l      |
 | 2a00:1e48:1:b::/64       | transtelecom-ovb1  | ug5onuxaxjvh-v8ce  |
+
+
 ```
 
 [conversion code]:  https://github.com/lennylxx/ipv6-hosts/blob/master/tools/conv.py
