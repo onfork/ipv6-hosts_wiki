@@ -38,9 +38,14 @@ Common GGC server domains conversion result table
 | 2001:1bd0:1:12::/64      | retelit-mxp1       | gxuxapu-hm2e       |
 | 2001:4350:0:12::/64      | ati-tun1           | 5up-u0oe           |
 | 2001:4350:2048:12::/64   | ati-tun2           | 5up-u0ol           |
+| 2001:4490:3ffc::/64      | bsnl-del2          | cnoa-qxal          |
+| 2001:4490:3ffc:1::/64    | bsnl-del1          | cnoa-qxae          |
 | 2001:4490:3ffc:4::/64    | bsnl-jai1          | cnoa-w5pe          |
+| 2001:4490:3ffc:8003::/64 | bsnl-amd1          | cnoa-5hqe          |
 | 2001:4490:3ffd:1::/64    | bsnl-pat1          | cnoa-25ue          |
 | 2001:4490:3ffd:8001::/64 | bsnl-maa2          | cnoa-h55l          |
+| 2001:4490:3ffe::/64      | bsnl-blr2          | cnoa-cagl          |
+| 2001:4490:3ffe:1::/64    | bsnl-blr1          | cnoa-cage          |
 | 2001:4498:a:200::/64     | timedotcom-kul1    | uphxqvujvh-30ae    |
 | 2001:b000:182:c100::/64  | phinet-tsa1        | 2ipoxu-un5e        |
 | 2001:b000:182:c101::/64  | phinet-tsa2        | 2ipoxu-un5l        |
