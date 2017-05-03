@@ -46,6 +46,7 @@ Common GGC server domains conversion result table
 | 2001:4490:3ffd:8001::/64 | bsnl-maa2          | cnoa-h55l          |
 | 2001:4490:3ffe::/64      | bsnl-blr2          | cnoa-cagl          |
 | 2001:4490:3ffe:1::/64    | bsnl-blr1          | cnoa-cage          |
+| 2001:4490:3ffe:2::/64    | bsnl-blr3          | cnoa-cags          |
 | 2001:4498:a:200::/64     | timedotcom-kul1    | uphxqvujvh-30ae    |
 | 2001:b000:182:c100::/64  | phinet-tsa1        | 2ipoxu-un5e        |
 | 2001:b000:182:c101::/64  | phinet-tsa2        | 2ipoxu-un5l        |
