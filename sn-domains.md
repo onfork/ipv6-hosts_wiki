@@ -25,6 +25,8 @@ According to the [domain list] collected so far, the pattern is similar to
    * Note that the char in the bottom left corner is `0`, not `1`.
    * Besides, `1` is for `z`.
 
+   It's a form of [Substitution Cipher], the tableau can be get by 90 degree counter-clockwise rotation of alphanumeric table.
+
    According to the rules, `a5m` in the example above can be reverse converted
    to `lax`, it's Los Angeles.
 
@@ -130,4 +132,5 @@ According to the [domain list] collected so far, the pattern is similar to
 [domain list]: https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
 [IATA airport code]: https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code
 [1e100.net servers deployment geoinfo]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
+[Substitution Cipher]: https://en.wikipedia.org/wiki/Substitution_cipher
 [conversion code]: https://github.com/lennylxx/ipv6-hosts/blob/master/tools/conv.py
