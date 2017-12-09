@@ -1,4 +1,4 @@
-As [[Google]] described, GGC is an important part of Google CDN, provided by ISP
+As [[Google]] described, Google Global Cache (GGC) is an important part of Google CDN, provided by ISP
 and Google.
 
 > Inquire the GGC servers assigned to you at
